@@ -1,0 +1,379 @@
+{
+  "$comment": "SAMPLE DATA. Every value in this file is illustrative demo content used to exercise the comparison matrix, eligibility engine and tracker. None of it has been verified against the programmes' official sites. Partner names are deliberately generic placeholders. The only real facts about these programmes are in data/seed/*.csv. Replace an entry with provenance 'hand_checked' only after checking the official site.",
+  "entries": [
+    {
+      "id": "deai",
+      "provenance": "sample",
+      "sections": ["institutions", "mobility", "eligibility", "documents", "pathways", "funding_detail"],
+      "notes": ["Coordinator inferred from the official website domain (ulb.be). Everything else is sample."],
+      "patch": {
+        "degree_awarded": "Multiple Degree",
+        "duration_months": 24,
+        "ects_credits": 120,
+        "research_pillars": ["Data engineering", "Machine learning systems", "Responsible AI"],
+        "coordinating_institution": { "name": "Université libre de Bruxelles", "country": "BE", "role": "Coordinator" },
+        "partner_institutions": [
+          { "name": "Sample partner A", "country": "FR", "role": "Full Partner" },
+          { "name": "Sample partner B", "country": "ES", "role": "Full Partner" },
+          { "name": "Sample associated partner", "country": "DE", "role": "Associated" }
+        ],
+        "mobility_tracks": [
+          { "period": "Year 1", "countries": ["BE"] },
+          { "period": "Semester 3", "countries": ["FR", "ES"], "note": "Specialisation track" },
+          { "period": "Semester 4 (thesis)", "countries": ["BE", "FR", "ES", "DE"] }
+        ],
+        "funding": { "tuition_waiver": true, "travel_installation_allowance": "Included in EU scholarship", "application_fee_eur": 0, "consortium_scholarships": null },
+        "eligibility_criteria": {
+          "min_degree_level": "Bachelor (180 ECTS)", "min_ects": 180,
+          "allowed_disciplines": ["Computer Science", "Data Science", "Software Engineering"],
+          "adjacent_disciplines": ["Mathematics", "Statistics", "Electrical Engineering", "Physics"],
+          "final_year_students_allowed": true, "proof_of_expected_graduation_deadline": "Before course commencement",
+          "work_experience_requirement": "None", "min_work_experience_years": 0, "prior_erasmus_scholarship_allowed": false
+        },
+        "document_checklist": {
+          "academic_transcripts": { "required": true, "certified_translation": true },
+          "degree_certificate": { "required": true, "conditional_provisional_allowed": true },
+          "cv_format": "Europass recommended",
+          "motivation_letter": { "required": true, "max_words_or_pages": "2 pages", "specific_prompts": ["Why this consortium?", "Preferred specialisation track", "Career goals"] },
+          "recommendation_letters": { "count": 2, "method": "Referees upload via portal link", "type": "Academic" },
+          "language_proficiency": { "accepted_tests": ["IELTS", "TOEFL iBT", "Cambridge C1"], "minimum_scores": { "ielts": 6.5, "toefl": 90 }, "waiver_conditions": ["Native speaker", "Entire Bachelor's taught in English (MOI letter)"], "moi_waiver_accepted": true },
+          "additional_documents": ["Passport scan"]
+        },
+        "alternative_pathways": { "non_direct_degree_admission": "Adjacent degrees considered with ≥30 ECTS of programming and maths", "language_waiver_feasibility": "High", "self_funded_fee_tier_eur": null, "partner_country_scholarship_odds": null }
+      }
+    },
+    {
+      "id": "eit-digital-ds",
+      "provenance": "sample",
+      "sections": ["institutions", "mobility", "eligibility", "documents", "pathways", "funding_detail"],
+      "patch": {
+        "degree_awarded": "Double Degree",
+        "duration_months": 24,
+        "ects_credits": 120,
+        "research_pillars": ["Data science", "Innovation & entrepreneurship"],
+        "coordinating_institution": null,
+        "partner_institutions": [
+          { "name": "Sample entry university", "country": "NL", "role": "Full Partner" },
+          { "name": "Sample exit university", "country": "FI", "role": "Full Partner" }
+        ],
+        "mobility_tracks": [
+          { "period": "Year 1 (entry)", "countries": ["NL", "ES", "IT"] },
+          { "period": "Year 2 (exit)", "countries": ["FI", "FR", "DE"] }
+        ],
+        "funding": { "emjm_monthly_stipend_eur": null, "tuition_waiver": null, "consortium_scholarships": "Partial and full tuition scholarships (sample)", "application_fee_eur": 0 },
+        "eligibility_criteria": {
+          "min_degree_level": "Bachelor (180 ECTS)", "min_ects": 180,
+          "allowed_disciplines": ["Computer Science", "Data Science", "Mathematics"],
+          "adjacent_disciplines": ["Physics", "Electrical Engineering", "Economics"],
+          "final_year_students_allowed": true, "work_experience_requirement": "None", "min_work_experience_years": 0, "prior_erasmus_scholarship_allowed": true
+        },
+        "document_checklist": {
+          "academic_transcripts": { "required": true, "certified_translation": true },
+          "degree_certificate": { "required": true, "conditional_provisional_allowed": true },
+          "cv_format": "Any standard academic CV",
+          "motivation_letter": { "required": true, "max_words_or_pages": "4000 characters", "specific_prompts": ["Entry/exit university choice", "Innovation and entrepreneurship motivation"] },
+          "recommendation_letters": { "count": 2, "method": "Uploaded by applicant", "type": "Academic or professional" },
+          "language_proficiency": { "accepted_tests": ["IELTS", "TOEFL iBT"], "minimum_scores": { "ielts": 6.5, "toefl": 92 }, "waiver_conditions": ["Native speaker"], "moi_waiver_accepted": false },
+          "additional_documents": ["Passport scan"]
+        },
+        "alternative_pathways": { "non_direct_degree_admission": null, "language_waiver_feasibility": "Strict", "self_funded_fee_tier_eur": null, "partner_country_scholarship_odds": null }
+      }
+    },
+    {
+      "id": "jemaro",
+      "provenance": "sample",
+      "sections": ["institutions", "mobility", "eligibility", "documents", "pathways", "funding_detail"],
+      "notes": ["Coordinator inferred from the official website domain (ec-nantes.fr). Everything else is sample."],
+      "patch": {
+        "degree_awarded": "Multiple Degree",
+        "duration_months": 24,
+        "ects_credits": 120,
+        "research_pillars": ["Robot perception", "Control", "Human-robot interaction"],
+        "coordinating_institution": { "name": "École Centrale de Nantes", "country": "FR", "role": "Coordinator" },
+        "partner_institutions": [
+          { "name": "Sample partner A", "country": "PL", "role": "Full Partner" },
+          { "name": "Sample partner B", "country": "JP", "role": "Full Partner" }
+        ],
+        "mobility_tracks": [
+          { "period": "Semester 1", "countries": ["FR"] },
+          { "period": "Semester 2", "countries": ["PL"] },
+          { "period": "Semester 3", "countries": ["JP"] },
+          { "period": "Semester 4 (thesis)", "countries": ["FR", "PL", "JP"] }
+        ],
+        "funding": { "tuition_waiver": false, "application_fee_eur": 0 },
+        "eligibility_criteria": {
+          "min_degree_level": "Bachelor (180 ECTS)", "min_ects": 180,
+          "allowed_disciplines": ["Mechanical Engineering", "Electrical Engineering", "Robotics", "Computer Science"],
+          "adjacent_disciplines": ["Physics", "Mathematics"],
+          "final_year_students_allowed": true, "work_experience_requirement": "None", "min_work_experience_years": 0, "prior_erasmus_scholarship_allowed": true
+        },
+        "document_checklist": {
+          "academic_transcripts": { "required": true, "certified_translation": true },
+          "degree_certificate": { "required": true, "conditional_provisional_allowed": true },
+          "cv_format": "Europass recommended",
+          "motivation_letter": { "required": true, "max_words_or_pages": "1 page", "specific_prompts": ["Robotics project experience", "Why Europe and Japan?"] },
+          "recommendation_letters": { "count": 2, "method": "Uploaded by applicant", "type": "Academic" },
+          "language_proficiency": { "accepted_tests": ["IELTS", "TOEFL iBT"], "minimum_scores": { "ielts": 6.0, "toefl": 80 }, "waiver_conditions": ["Native speaker", "English-medium Bachelor's"], "moi_waiver_accepted": true },
+          "additional_documents": ["Passport scan", "Project portfolio (optional)"]
+        },
+        "alternative_pathways": { "non_direct_degree_admission": null, "language_waiver_feasibility": "Medium", "self_funded_fee_tier_eur": 9000, "partner_country_scholarship_odds": null }
+      }
+    },
+    {
+      "id": "select",
+      "provenance": "sample",
+      "sections": ["institutions", "mobility", "eligibility", "documents", "pathways", "funding_detail"],
+      "patch": {
+        "degree_awarded": "Double Degree",
+        "duration_months": 24,
+        "ects_credits": 120,
+        "research_pillars": ["Energy systems", "Sustainability assessment", "Energy entrepreneurship"],
+        "partner_institutions": [
+          { "name": "Sample partner A", "country": "SE", "role": "Full Partner" },
+          { "name": "Sample partner B", "country": "PT", "role": "Full Partner" },
+          { "name": "Sample partner C", "country": "FI", "role": "Full Partner" }
+        ],
+        "mobility_tracks": [
+          { "period": "Year 1", "countries": ["SE", "PT"] },
+          { "period": "Year 2", "countries": ["FI", "SE"] }
+        ],
+        "funding": { "consortium_scholarships": "Monthly grant and tuition coverage for selected students (sample)", "application_fee_eur": 0 },
+        "eligibility_criteria": {
+          "min_degree_level": "Bachelor (180 ECTS)", "min_ects": 180,
+          "allowed_disciplines": ["Mechanical Engineering", "Energy Engineering", "Electrical Engineering", "Environmental Engineering"],
+          "adjacent_disciplines": ["Physics", "Chemical Engineering"],
+          "final_year_students_allowed": true, "work_experience_requirement": "Preferred", "min_work_experience_years": 0, "prior_erasmus_scholarship_allowed": true
+        },
+        "document_checklist": {
+          "academic_transcripts": { "required": true, "certified_translation": true },
+          "degree_certificate": { "required": true, "conditional_provisional_allowed": true },
+          "cv_format": "Any standard CV",
+          "motivation_letter": { "required": true, "max_words_or_pages": "Short video + written answers", "specific_prompts": ["Energy transition challenge you care about", "Entrepreneurial experience"] },
+          "recommendation_letters": { "count": 2, "method": "Referees submit online", "type": "Academic or professional" },
+          "language_proficiency": { "accepted_tests": ["IELTS", "TOEFL iBT", "Cambridge C1"], "minimum_scores": { "ielts": 6.5, "toefl": 90 }, "waiver_conditions": ["Native speaker", "English-medium Bachelor's"], "moi_waiver_accepted": true },
+          "additional_documents": ["Passport scan", "Motivation video"]
+        },
+        "alternative_pathways": { "non_direct_degree_admission": "Industry experience can offset minor gaps (sample)", "language_waiver_feasibility": "Medium", "self_funded_fee_tier_eur": null, "partner_country_scholarship_odds": null }
+      }
+    },
+    {
+      "id": "cde",
+      "provenance": "sample",
+      "sections": ["institutions", "mobility", "eligibility", "documents", "pathways", "funding_detail"],
+      "patch": {
+        "degree_awarded": "Multiple Degree",
+        "duration_months": 24,
+        "ects_credits": 120,
+        "research_pillars": ["Earth observation", "Geoinformatics", "Spatial data science"],
+        "partner_institutions": [
+          { "name": "Sample partner A", "country": "AT", "role": "Full Partner" },
+          { "name": "Sample partner B", "country": "FR", "role": "Full Partner" },
+          { "name": "Sample partner C", "country": "CZ", "role": "Full Partner" }
+        ],
+        "mobility_tracks": [
+          { "period": "Year 1", "countries": ["AT"] },
+          { "period": "Year 2", "countries": ["FR", "CZ"], "note": "Choose a specialisation" }
+        ],
+        "funding": { "tuition_waiver": true, "application_fee_eur": 0 },
+        "eligibility_criteria": {
+          "min_degree_level": "Bachelor (180 ECTS)", "min_ects": 180,
+          "allowed_disciplines": ["Geography", "Geoinformatics", "Environmental Science", "Computer Science"],
+          "adjacent_disciplines": ["Civil Engineering", "Physics", "Earth Sciences"],
+          "final_year_students_allowed": true, "work_experience_requirement": "None", "min_work_experience_years": 0, "prior_erasmus_scholarship_allowed": false
+        },
+        "document_checklist": {
+          "academic_transcripts": { "required": true, "certified_translation": true },
+          "degree_certificate": { "required": true, "conditional_provisional_allowed": true },
+          "cv_format": "Europass required",
+          "motivation_letter": { "required": true, "max_words_or_pages": "1000 words", "specific_prompts": ["Experience with GIS or remote sensing", "Specialisation preference"] },
+          "recommendation_letters": { "count": 2, "method": "Uploaded by applicant", "type": "Academic" },
+          "language_proficiency": { "accepted_tests": ["IELTS", "TOEFL iBT", "Cambridge C1"], "minimum_scores": { "ielts": 6.5, "toefl": 88 }, "waiver_conditions": ["Native speaker"], "moi_waiver_accepted": false },
+          "additional_documents": ["Passport scan"]
+        },
+        "alternative_pathways": { "non_direct_degree_admission": null, "language_waiver_feasibility": "Strict", "self_funded_fee_tier_eur": 9000, "partner_country_scholarship_odds": null }
+      }
+    },
+    {
+      "id": "imete",
+      "provenance": "sample",
+      "sections": ["institutions", "mobility", "eligibility", "documents", "pathways", "funding_detail"],
+            "patch": {
+        "degree_awarded": "Multiple Degree",
+        "duration_months": 24,
+        "ects_credits": 120,
+        "research_pillars": ["Water and wastewater treatment", "Environmental biotechnology", "Resource recovery"],
+        "coordinating_institution": null,
+        "partner_institutions": [
+          { "name": "Sample partner A", "country": "CZ", "role": "Full Partner" },
+          { "name": "Sample partner B", "country": "BE", "role": "Full Partner" }
+        ],
+        "mobility_tracks": [
+          { "period": "Semester 1", "countries": ["NL"] },
+          { "period": "Semester 2", "countries": ["CZ"] },
+          { "period": "Year 2", "countries": ["BE", "NL"] }
+        ],
+        "funding": { "tuition_waiver": false, "application_fee_eur": 0 },
+        "eligibility_criteria": {
+          "min_degree_level": "Bachelor (240 ECTS)", "min_ects": 240,
+          "allowed_disciplines": ["Environmental Engineering", "Chemical Engineering", "Civil Engineering"],
+          "adjacent_disciplines": ["Biotechnology", "Chemistry", "Environmental Science"],
+          "final_year_students_allowed": false, "work_experience_requirement": "Preferred", "min_work_experience_years": 0, "prior_erasmus_scholarship_allowed": true
+        },
+        "document_checklist": {
+          "academic_transcripts": { "required": true, "certified_translation": true },
+          "degree_certificate": { "required": true, "conditional_provisional_allowed": false },
+          "cv_format": "Any standard academic CV",
+          "motivation_letter": { "required": true, "max_words_or_pages": "2 pages", "specific_prompts": ["Environmental problem in your home region"] },
+          "recommendation_letters": { "count": 2, "method": "Uploaded by applicant", "type": "Academic or professional" },
+          "language_proficiency": { "accepted_tests": ["IELTS", "TOEFL iBT"], "minimum_scores": { "ielts": 6.5, "toefl": 90 }, "waiver_conditions": ["Native speaker", "English-medium Bachelor's"], "moi_waiver_accepted": true },
+          "additional_documents": ["Passport scan", "Employer statement (if employed)"]
+        },
+        "alternative_pathways": { "non_direct_degree_admission": "180-ECTS Bachelor plus relevant work experience may be considered (sample)", "language_waiver_feasibility": "Medium", "self_funded_fee_tier_eur": 12000, "partner_country_scholarship_odds": null }
+      }
+    },
+    {
+      "id": "archmat",
+      "provenance": "sample",
+      "sections": ["institutions", "mobility", "eligibility", "documents", "pathways", "funding_detail"],
+      "notes": ["Coordinator inferred from the official website domain (uevora.pt). Everything else is sample."],
+      "patch": {
+        "degree_awarded": "Multiple Degree",
+        "duration_months": 24,
+        "ects_credits": 120,
+        "research_pillars": ["Archaeometry", "Materials characterisation", "Cultural heritage conservation"],
+        "coordinating_institution": { "name": "Universidade de Évora", "country": "PT", "role": "Coordinator" },
+        "partner_institutions": [
+          { "name": "Sample partner A", "country": "IT", "role": "Full Partner" },
+          { "name": "Sample partner B", "country": "GR", "role": "Full Partner" }
+        ],
+        "mobility_tracks": [
+          { "period": "Semester 1", "countries": ["PT"] },
+          { "period": "Semester 2", "countries": ["IT", "GR"] },
+          { "period": "Year 2", "countries": ["PT", "IT", "GR"] }
+        ],
+        "funding": { "tuition_waiver": true, "application_fee_eur": 0 },
+        "eligibility_criteria": {
+          "min_degree_level": "Bachelor (180 ECTS)", "min_ects": 180,
+          "allowed_disciplines": ["Archaeology", "Chemistry", "Physics", "Geology", "Conservation"],
+          "adjacent_disciplines": ["History of Art", "Materials Science", "Anthropology"],
+          "final_year_students_allowed": true, "work_experience_requirement": "None", "min_work_experience_years": 0, "prior_erasmus_scholarship_allowed": false
+        },
+        "document_checklist": {
+          "academic_transcripts": { "required": true, "certified_translation": true },
+          "degree_certificate": { "required": true, "conditional_provisional_allowed": true },
+          "cv_format": "Europass required",
+          "motivation_letter": { "required": true, "max_words_or_pages": "1500 words", "specific_prompts": ["Bridging science and the humanities", "Fieldwork or lab experience"] },
+          "recommendation_letters": { "count": 2, "method": "Referees email consortium directly", "type": "Academic" },
+          "language_proficiency": { "accepted_tests": ["IELTS", "TOEFL iBT", "Cambridge B2+"], "minimum_scores": { "ielts": 6.0, "toefl": 80 }, "waiver_conditions": ["Native speaker", "English-medium Bachelor's"], "moi_waiver_accepted": true },
+          "additional_documents": ["Passport scan", "Writing sample"]
+        },
+        "alternative_pathways": { "non_direct_degree_admission": "Humanities graduates with lab coursework considered (sample)", "language_waiver_feasibility": "High", "self_funded_fee_tier_eur": 4500, "partner_country_scholarship_odds": null }
+      }
+    },
+    {
+      "id": "chemexpo",
+      "provenance": "sample",
+      "sections": ["mobility", "eligibility", "pathways"],
+      "notes": ["EMDM: a design project for a future master. No admissions yet; use it to plan a year ahead."],
+      "patch": {
+        "research_pillars": ["Exposome science", "Environmental health", "Toxicology to policy"],
+        "eligibility_criteria": {
+          "allowed_disciplines": ["Chemistry", "Toxicology", "Public Health", "Environmental Science"],
+          "adjacent_disciplines": ["Biology", "Pharmacy", "Medicine"]
+        },
+        "alternative_pathways": { "non_direct_degree_admission": "Not yet defined: programme in design phase", "language_waiver_feasibility": null, "self_funded_fee_tier_eur": null, "partner_country_scholarship_odds": null }
+      }
+    },
+    {
+      "id": "e-traineeship",
+      "provenance": "sample",
+      "sections": ["eligibility", "documents", "pathways"],
+      "patch": {
+        "duration_months": 6,
+        "research_pillars": ["Work placement abroad"],
+        "eligibility_criteria": {
+          "min_degree_level": "Enrolled student or recent graduate (sample)",
+          "allowed_disciplines": ["Any"],
+          "final_year_students_allowed": true,
+          "work_experience_requirement": "None", "min_work_experience_years": 0, "prior_erasmus_scholarship_allowed": true
+        },
+        "document_checklist": {
+          "academic_transcripts": { "required": true, "certified_translation": null },
+          "degree_certificate": null,
+          "cv_format": "Europass recommended",
+          "motivation_letter": { "required": true, "max_words_or_pages": null, "specific_prompts": ["Placement goals"] },
+          "recommendation_letters": { "count": 0, "method": null, "type": null },
+          "language_proficiency": { "accepted_tests": null, "minimum_scores": null, "waiver_conditions": null, "moi_waiver_accepted": null },
+          "additional_documents": ["Learning agreement for traineeships", "Host organisation acceptance"]
+        },
+        "alternative_pathways": { "non_direct_degree_admission": null, "language_waiver_feasibility": null, "self_funded_fee_tier_eur": null, "partner_country_scholarship_odds": null }
+      }
+    },
+    {
+      "id": "msca-dn",
+      "provenance": "sample",
+      "sections": ["eligibility", "documents", "pathways"],
+      "notes": ["Doctoral Networks recruit per position; requirements vary by network."],
+      "patch": {
+        "duration_months": 36,
+        "research_pillars": ["Varies by network"],
+        "eligibility_criteria": {
+          "min_degree_level": "Master's or equivalent (sample)",
+          "allowed_disciplines": ["Any"],
+          "work_experience_requirement": "None", "min_work_experience_years": 0, "prior_erasmus_scholarship_allowed": true,
+          "nationality_considerations": "Mobility rule applies (residence in host country restricted before recruitment; check each call)"
+        },
+        "document_checklist": {
+          "academic_transcripts": { "required": true, "certified_translation": null },
+          "degree_certificate": { "required": true, "conditional_provisional_allowed": true },
+          "cv_format": "Academic CV with publications",
+          "motivation_letter": { "required": true, "max_words_or_pages": null, "specific_prompts": ["Research interest in the specific project"] },
+          "recommendation_letters": { "count": 2, "method": null, "type": "Academic" },
+          "language_proficiency": { "accepted_tests": null, "minimum_scores": null, "waiver_conditions": null, "moi_waiver_accepted": null },
+          "additional_documents": ["Research proposal (some positions)"]
+        },
+        "alternative_pathways": { "non_direct_degree_admission": null, "language_waiver_feasibility": null, "self_funded_fee_tier_eur": null, "partner_country_scholarship_odds": null }
+      }
+    },
+    {
+      "id": "euroculture",
+      "provenance": "sample",
+      "sections": ["institutions", "mobility", "eligibility", "documents", "pathways", "funding_detail"],
+      "patch": {
+        "degree_awarded": "Joint Degree",
+        "duration_months": 24,
+        "ects_credits": 120,
+        "research_pillars": ["European identity", "Politics and society", "Cultural heritage"],
+        "partner_institutions": [
+          { "name": "Sample partner A", "country": "NL", "role": "Full Partner" },
+          { "name": "Sample partner B", "country": "DE", "role": "Full Partner" },
+          { "name": "Sample partner C", "country": "PL", "role": "Full Partner" },
+          { "name": "Sample partner D", "country": "ES", "role": "Full Partner" }
+        ],
+        "mobility_tracks": [
+          { "period": "Semester 1", "countries": ["NL", "DE", "PL", "ES"] },
+          { "period": "Semester 2", "countries": ["NL", "DE", "PL", "ES"], "note": "Different university from semester 1" },
+          { "period": "Semester 3", "countries": ["NL", "DE"], "note": "Research or professional track" },
+          { "period": "Semester 4", "countries": ["NL", "DE", "PL", "ES"] }
+        ],
+        "funding": { "tuition_waiver": true, "application_fee_eur": 0 },
+        "eligibility_criteria": {
+          "min_degree_level": "Bachelor (180 ECTS)", "min_ects": 180,
+          "allowed_disciplines": ["Political Science", "History", "Sociology", "European Studies", "International Relations"],
+          "adjacent_disciplines": ["Law", "Economics", "Languages", "Philosophy"],
+          "final_year_students_allowed": true, "work_experience_requirement": "None", "min_work_experience_years": 0, "prior_erasmus_scholarship_allowed": false
+        },
+        "document_checklist": {
+          "academic_transcripts": { "required": true, "certified_translation": true },
+          "degree_certificate": { "required": true, "conditional_provisional_allowed": true },
+          "cv_format": "Europass recommended",
+          "motivation_letter": { "required": true, "max_words_or_pages": "1000 words", "specific_prompts": ["Why European studies?", "Choice of first and second semester universities", "Career impact"] },
+          "recommendation_letters": { "count": 2, "method": "Referees upload via portal link", "type": "Academic" },
+          "language_proficiency": { "accepted_tests": ["IELTS", "TOEFL iBT", "Cambridge C1"], "minimum_scores": { "ielts": 6.5, "toefl": 90 }, "waiver_conditions": ["Native speaker", "English-medium Bachelor's"], "moi_waiver_accepted": true },
+          "additional_documents": ["Passport scan", "Essay sample"]
+        },
+        "alternative_pathways": { "non_direct_degree_admission": "Any humanities/social science degree with European-themed coursework (sample)", "language_waiver_feasibility": "High", "self_funded_fee_tier_eur": 8000, "partner_country_scholarship_odds": null }
+      }
+    }
+  ]
+}

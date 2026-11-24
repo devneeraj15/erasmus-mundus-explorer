@@ -1,0 +1,22 @@
+name: Weekly data refresh
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays 06:00 UTC
+  workflow_dispatch:
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run crawl -- --write-enrichment
+      - uses: actions/upload-artifact@v4
+        with:
+          name: crawl-report
+          path: |
+            data/crawl/
+            data/enrichment/crawler-*.json
