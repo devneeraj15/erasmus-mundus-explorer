@@ -5,7 +5,7 @@
  *   npm run data:build -- --csv path/to/newer-export.csv
  */
 import { readFileSync, readdirSync, writeFileSync } from "node:fs";
-import { join, resolve } from "node:path";
+import { join, relative, resolve } from "node:path";
 import { parse } from "csv-parse/sync";
 import { buildPrograms, type CsvRow } from "../src/lib/build-data";
 import type { Enrichment } from "../src/lib/types";
@@ -38,10 +38,11 @@ const enrichments: Enrichment[] = readdirSync(enrichDir)
   .flatMap((f) => (JSON.parse(readFileSync(join(enrichDir, f), "utf8")).entries ?? []) as Enrichment[]);
 
 const programs = buildPrograms(rows, enrichments, importedOn);
+const relativeCsvPath = relative(root, csvPath).replace(/\\/g, "/");
 writeFileSync(
   join(root, "data/programs.json"),
-  JSON.stringify({ generated_from: csvPath.replace(root + "/", ""), imported_on: importedOn, programs }, null, 2) + "\n",
+  JSON.stringify({ generated_from: relativeCsvPath, imported_on: importedOn, programs }, null, 2) + "\n",
 );
 console.log(
-  `Wrote ${programs.length} programmes (${enrichments.length} enrichment entries) from ${csvPath.replace(root + "/", "")}`,
+  `Wrote ${programs.length} programmes (${enrichments.length} enrichment entries) from ${relativeCsvPath}`,
 );
