@@ -2,7 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { ArrowLeft, ExternalLink, Info, TriangleAlert } from "lucide-react";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { ProvenanceBadge, ScholarshipBadge, StatusBadge, TypeBadge, Val } from "@/components/program-badges";
+import { DeadlineCheckBadge, ProvenanceBadge, ScholarshipBadge, StatusBadge, TypeBadge, Val } from "@/components/program-badges";
 import { ProgramActions } from "@/components/program-actions";
 import { countryName } from "@/lib/countries";
 import { getProgram, PROGRAMS } from "@/lib/data";
@@ -27,6 +27,7 @@ const SECTION_LABEL: Record<EnrichableSection, string> = {
   eligibility: "Eligibility",
   documents: "Documents & language",
   pathways: "Alternative pathways",
+  competition: "Intake numbers",
 };
 
 function Row({ k, children }: { k: string; children: React.ReactNode }) {
@@ -118,6 +119,21 @@ export default async function ProgramPage({ params }: { params: Promise<{ id: st
           <Row k="Applications open">
             <Val v={p.deadlines.applications_open_date} />
           </Row>
+          <Row k="Official-site check">
+            <DeadlineCheckBadge p={p} />
+          </Row>
+          {p.deadlines.check?.quote && (
+            <Row k="What the site says">
+              <span className="text-muted-foreground">“{p.deadlines.check.quote}”</span>
+            </Row>
+          )}
+          {p.competition && (
+            <Row k="Intake numbers">
+              <a href={p.competition.source_url} target="_blank" rel="noreferrer" className="underline">
+                {p.competition.note}
+              </a>
+            </Row>
+          )}
         </Section>
 
         <Section p={p} s="funding_detail" title="Funding">

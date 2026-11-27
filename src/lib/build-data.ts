@@ -46,6 +46,7 @@ const SECTIONS: EnrichableSection[] = [
   "eligibility",
   "documents",
   "pathways",
+  "competition",
 ];
 
 export function slugify(s: string): string {
@@ -143,6 +144,7 @@ export function rowToProgram(row: CsvRow, importedOn: string): Program {
       scholarship_deadline: null,
       self_funded_deadline: null,
       next_deadline: nextDeadline || null,
+      check: null,
     },
     eligibility_criteria: {
       min_degree_level: null,
@@ -171,6 +173,7 @@ export function rowToProgram(row: CsvRow, importedOn: string): Program {
       self_funded_fee_tier_eur: null,
       partner_country_scholarship_odds: null,
     },
+    competition: null,
     data_quality: {
       rules: handChecked ? "hand_checked" : "catalogue_only",
       sections,

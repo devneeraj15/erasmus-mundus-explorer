@@ -11,6 +11,9 @@ import { PROGRAMS } from "@/lib/data";
 import { deadlineStatus, primaryDeadline } from "@/lib/deadlines";
 import { ACCEPT, CvReadError, extractCvText } from "@/lib/cv-extract";
 import { matchCv } from "@/lib/cv-match";
+import { EMPTY_FIT, FIT_STORE_KEY, type FitStore } from "@/lib/chances";
+import { todayIso } from "@/lib/deadlines";
+import { useLocalStore } from "@/hooks/use-local-store";
 import type { Program } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
@@ -54,6 +57,14 @@ export function CvMatcher() {
 
   const result = useMemo(() => (submitted ? matchCv(submitted, PROGRAMS, { filter, limit: 5 }) : null), [submitted, filter]);
   const tooShort = result && result.profile.wordCount < MIN_WORDS;
+  const [fit, setFit] = useLocalStore<FitStore>(FIT_STORE_KEY, EMPTY_FIT);
+
+  /** Saves one number per programme (0-100). The CV text itself is never stored. */
+  const saveFit = () => {
+    if (!submitted) return;
+    const all = matchCv(submitted, PROGRAMS, { limit: PROGRAMS.length });
+    setFit({ saved_on: todayIso(), scores: Object.fromEntries(all.matches.map((m) => [m.program.id, m.score])) });
+  };
 
   const clear = () => {
     setText("");
@@ -76,7 +87,7 @@ export function CvMatcher() {
         <div>
           <p className="font-medium">Your CV never leaves your browser.</p>
           <p className="opacity-90">
-            The file is read and matched on your own device. Nothing is uploaded to a server, sent to an AI service or saved: refresh the page and it&apos;s gone.
+            The file is read and matched on your own device. Nothing is uploaded to a server or sent to an AI service, and the CV is never saved: refresh the page and it&apos;s gone. If you choose “Use in My chances”, only the fit numbers are kept in this browser.
           </p>
         </div>
       </div>
@@ -199,6 +210,28 @@ export function CvMatcher() {
                   ))}
                 </ol>
               )}
+
+              <div className="flex flex-wrap items-center gap-3 rounded-lg border p-3 text-sm">
+                <Button size="sm" variant="outline" onClick={saveFit}>
+                  Use in My chances
+                </Button>
+                <span className="text-muted-foreground">
+                  {fit.saved_on ? (
+                    <>
+                      Fit scores saved {fit.saved_on}.{" "}
+                      <Link href="/" className="underline">
+                        See My chances
+                      </Link>{" "}
+                      ·{" "}
+                      <button className="underline" onClick={() => setFit(EMPTY_FIT)}>
+                        Forget
+                      </button>
+                    </>
+                  ) : (
+                    "Saves one fit number per programme in this browser, so the explorer's My chances column can use it. Your CV is not saved."
+                  )}
+                </span>
+              </div>
 
               <p className="text-xs text-muted-foreground">
                 How this works: we compare the subjects and skills in your CV with each programme&apos;s title and field from the official catalogue, giving
