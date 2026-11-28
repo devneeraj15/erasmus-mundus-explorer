@@ -16,6 +16,6 @@ describe("deadline status", () => {
     expect(deadlineStatus(p, "2026-12-05")).toBe("OPEN");
   });
   it("is UNKNOWN without any deadline", () => {
-    expect(deadlineStatus(PROGRAM_BY_ID.get("jemaro")!, "2026-11-24")).toBe("UNKNOWN");
+    expect(deadlineStatus(PROGRAM_BY_ID.get("emecs")!, "2026-11-24")).toBe("UNKNOWN");
   });
 });
