@@ -15,14 +15,16 @@ import { ArrowUpDown, ExternalLink, Pin, Search, Sparkles } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Input, NativeSelect } from "@/components/ui/input";
-import { ProvenanceBadge, ScholarshipBadge, StatusBadge, TypeBadge } from "@/components/program-badges";
+import { ChancesBadge, DeadlineCheckBadge, ProvenanceBadge, ScholarshipBadge, StatusBadge, TypeBadge } from "@/components/program-badges";
 import { useCompare } from "@/hooks/use-compare";
+import { useLocalStore } from "@/hooks/use-local-store";
+import { computeChances, EMPTY_FIT, FIT_STORE_KEY, type Chances, type FitStore } from "@/lib/chances";
 import { PROGRAMS } from "@/lib/data";
 import { deadlineStatus, primaryDeadline } from "@/lib/deadlines";
 import { PROGRAM_TYPE_LABEL, type DeadlineStatus, type Program, type ProgramType, type ScholarshipStatus } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
-type Row = Program & { _status: DeadlineStatus; _deadline: string | null; _hasSample: boolean };
+type Row = Program & { _status: DeadlineStatus; _deadline: string | null; _hasSample: boolean; _chances: Chances };
 
 const TIERS: ProgramType[] = ["EMJM", "MSCA", "EIT", "EMDM", "SHORT_TERM"];
 const TIER_BLURB: Record<ProgramType, string> = {
@@ -43,6 +45,7 @@ const globalFilter: FilterFn<Row> = (row, _id, value: string) => {
 };
 
 export function Explorer() {
+  const [fit, setFit] = useLocalStore<FitStore>(FIT_STORE_KEY, EMPTY_FIT);
   const rows: Row[] = useMemo(
     () =>
       PROGRAMS.map((p) => ({
@@ -50,8 +53,10 @@ export function Explorer() {
         _status: deadlineStatus(p),
         _deadline: primaryDeadline(p),
         _hasSample: Object.values(p.data_quality.sections).includes("sample"),
+        // A programme with no title overlap gets 0 once a CV has been matched.
+        _chances: computeChances(p, fit.saved_on ? (fit.scores[p.id] ?? 0) : null),
       })),
-    [],
+    [fit],
   );
   const { ids, toggle, full } = useCompare();
 
@@ -129,11 +134,19 @@ export function Explorer() {
         sortUndefined: "last",
         sortingFn: (a, b) => (a.original._deadline ?? "9999").localeCompare(b.original._deadline ?? "9999"),
         cell: ({ row }) => (
-          <div className="flex flex-col items-start gap-1">
+          <div className="flex min-w-32 flex-col items-start gap-1">
             <span className="text-sm tabular-nums">{row.original._deadline ?? "—"}</span>
             <StatusBadge status={row.original._status} />
+            <DeadlineCheckBadge p={row.original} />
           </div>
         ),
+      }),
+      col.accessor((r) => r._chances.index, {
+        id: "chances",
+        header: "My chances",
+        sortDescFirst: true,
+        sortingFn: (a, b) => (a.original._chances.index ?? -1) - (b.original._chances.index ?? -1),
+        cell: ({ row }) => <ChancesBadge c={row.original._chances} />,
       }),
       col.accessor((r) => r.data_quality.rules, {
         id: "quality",
@@ -250,6 +263,55 @@ export function Explorer() {
           Reset
         </Button>
       </div>
+
+      <details className="rounded-lg border bg-muted/30 p-3 text-sm">
+        <summary className="cursor-pointer font-medium">How “Next deadline” and “My chances” work</summary>
+        <div className="mt-2 space-y-2 text-muted-foreground">
+          <p>
+            <strong className="text-foreground">Deadlines.</strong> Every programme&apos;s official site was checked by hand on{" "}
+            {rows.find((r) => r.deadlines.check)?.deadlines.check?.checked_on ?? "—"} for the 2027 scholarship deadline. The badge under each date says
+            what was found and links to the page it came from: <em>Verified</em> means the site states the date. Anything else (not published yet, old
+            intake, not found, site unreachable) means there is no confirmed date, and any date shown comes from the catalogue. Always confirm on the
+            official site before applying.
+          </p>
+          <p>
+            <strong className="text-foreground">My chances</strong> is a relative index from 0 to 100 for sorting your shortlist.{" "}
+            <strong className="text-foreground">It is not a probability</strong> of admission or of a scholarship, and it does not know your grades,
+            nationality or references. It adds two parts:
+          </p>
+          <ul className="list-disc space-y-1 pl-5">
+            <li>
+              <strong className="text-foreground">Competition, up to 40 points.</strong> Where the programme publishes how many applicants it gets and how
+              many it takes, the ratio sets the points (1 in 10 or better = 32, 1 in 20 = 22, 1 in 50 = 12, worse = 5). With only a scholarship count, 15 or
+              more = 16 and 8 or fewer = 7. With no figures, 12. Hover a badge to see which applied.
+            </li>
+            <li>
+              <strong className="text-foreground">CV fit, up to 60 points.</strong> Your CV Match score for the programme times 0.6. Without a CV the fit is
+              assumed average (50, so 30 points) and the badge says so.
+            </li>
+            <li>5 points are taken off when the 2027 scholarship call is not confirmed on the official site.</li>
+            <li>55 or more is a “Good shot”, 35 to 54 “Possible”, below 35 a “Long shot”. Programmes with no scholarship this intake, a passed deadline, or no single call are labelled instead of scored.</li>
+          </ul>
+          <p>
+            {fit.saved_on ? (
+              <>
+                Using CV fit scores saved on {fit.saved_on}. Only the scores are stored in this browser, never your CV.{" "}
+                <button className="underline" onClick={() => setFit(EMPTY_FIT)}>
+                  Forget them
+                </button>
+              </>
+            ) : (
+              <>
+                To personalise, run{" "}
+                <Link href="/cv-match" className="underline">
+                  CV Match
+                </Link>{" "}
+                and choose “Use in My chances”.
+              </>
+            )}
+          </p>
+        </div>
+      </details>
 
       <div className="text-sm text-muted-foreground">
         Showing {shown.length} of {rows.length}

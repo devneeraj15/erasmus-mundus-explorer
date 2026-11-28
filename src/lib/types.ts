@@ -86,8 +86,58 @@ export interface Deadlines {
   applications_open_date: string | null; // YYYY-MM-DD
   scholarship_deadline: string | null;
   self_funded_deadline: string | null;
-  /** The single "Next deadline" from the catalogue. Its type (scholarship vs self-funded) is not stated there. */
+  /** The single "Next deadline" from the catalogue, or the verified date when a check confirmed one. */
   next_deadline: string | null;
+  /** Result of checking the official programme site. null = never checked. */
+  check?: DeadlineCheck | null;
+}
+
+/**
+ * Outcome of checking a programme's official site for its next scholarship deadline.
+ * - CONFIRMED: the site states the date for the coming intake
+ * - NO_SCHOLARSHIP: the site says no Erasmus Mundus scholarships for the coming intake
+ * - NOT_PUBLISHED: the coming call is announced but its closing date is not shown yet
+ * - ANNUAL_RULE: the site gives a recurring date without a year
+ * - PREVIOUS_CYCLE: the site still shows an older intake only
+ * - UNCONFIRMED: conflicting or partial information
+ * - NOT_FOUND: the site loaded but no deadline was found
+ * - UNREACHABLE: the site could not be read (blocked, error, bot check)
+ * - NOT_APPLICABLE: not a programme with a single scholarship call
+ */
+export type DeadlineCheckStatus =
+  | "CONFIRMED"
+  | "NO_SCHOLARSHIP"
+  | "NOT_PUBLISHED"
+  | "ANNUAL_RULE"
+  | "PREVIOUS_CYCLE"
+  | "UNCONFIRMED"
+  | "NOT_FOUND"
+  | "UNREACHABLE"
+  | "NOT_APPLICABLE";
+
+export interface DeadlineCheck {
+  status: DeadlineCheckStatus;
+  /** Date seen on the site: YYYY-MM-DD, or YYYY-MM when only the month is given. */
+  date: string | null;
+  /** What the date is for. */
+  kind: "scholarship" | "general" | "self_funded" | null;
+  intake: string | null;
+  source_url: string | null;
+  /** Short quote from the source supporting the status. */
+  quote: string | null;
+  checked_on: string; // YYYY-MM-DD
+  /** The catalogue's date when the check found a different one. */
+  catalogue_deadline?: string | null;
+}
+
+/** Published intake numbers, when the programme states them. null = not stated. */
+export interface Competition {
+  scholarships: number | null; // EM scholarships per intake
+  places: number | null; // study places per intake
+  applicants: number | null; // applications per year
+  note: string;
+  source_url: string;
+  checked_on: string;
 }
 
 export type WorkExperienceRequirement = "None" | "Preferred" | "Mandatory";
@@ -146,7 +196,8 @@ export type EnrichableSection =
   | "mobility"
   | "eligibility"
   | "documents"
-  | "pathways";
+  | "pathways"
+  | "competition";
 
 export interface DataQuality {
   /** "Rules in app" column of the seed CSV. */
@@ -179,6 +230,7 @@ export interface Program {
   eligibility_criteria: EligibilityCriteria;
   document_checklist: DocumentChecklist;
   alternative_pathways: AlternativePathways;
+  competition?: Competition | null;
   data_quality: DataQuality;
 }
 

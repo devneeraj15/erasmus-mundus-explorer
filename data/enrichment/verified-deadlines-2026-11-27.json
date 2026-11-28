@@ -1,0 +1,4815 @@
+{
+  "$comment": "Hand-checked 2026-11-27 against each programme's official site (built-in browser, no bot checks bypassed). Generated from data/verification/deadline-checks-2026-11-27.tsv by scripts/verify/build-deadline-enrichment.ts. Do not edit by hand: edit the TSV and regenerate.",
+  "entries": [
+    {
+      "id": "deai",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://deai.ulb.be/home/students/admission/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-11",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://deai.ulb.be/home/students/admission/",
+            "quote": "Deadline for the grant application period January 11th, 2027 (11:00 UTC)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-11",
+          "next_deadline": "2027-01-11"
+        }
+      }
+    },
+    {
+      "id": "eit-digital-ds",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://masterschool.28digital.eu/admissions"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-31",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://masterschool.28digital.eu/admissions",
+            "quote": "Period one 30 October 2026 - 31 January 2027",
+            "checked_on": "2026-11-27",
+            "catalogue_deadline": "2027-02-11"
+          },
+          "scholarship_deadline": "2027-01-31",
+          "next_deadline": "2027-01-31"
+        }
+      }
+    },
+    {
+      "id": "jemaro",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://jemaro.ec-nantes.fr/english-version/admission/deadlines"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-03-10",
+            "kind": "general",
+            "intake": "2027",
+            "source_url": "https://jemaro.ec-nantes.fr/english-version/admission/deadlines",
+            "quote": "Deadline to apply: 10 March 2027 23:59 CET",
+            "checked_on": "2026-11-27"
+          },
+          "next_deadline": "2027-03-10"
+        }
+      }
+    },
+    {
+      "id": "codas",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.unite-codas-master.eu/admission.html"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-05",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.unite-codas-master.eu/admission.html",
+            "quote": "application period ... open from 1 December 2026 to 5 January 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-05",
+          "next_deadline": "2027-01-05"
+        }
+      }
+    },
+    {
+      "id": "euroculture",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.euroculturemaster.eu/application-procedure"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-15",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.euroculturemaster.eu/application-procedure",
+            "quote": "Erasmus Mundus scholarship application deadline - 15 January 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-15",
+          "next_deadline": "2027-01-15"
+        }
+      }
+    },
+    {
+      "id": "cybersure",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.cybersure-master.eu/admission/how-to-apply"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-04",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.cybersure-master.eu/admission/how-to-apply",
+            "quote": "Jan 4th., 2027 Application Deadline 23:59 PM (GMT+1)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-04",
+          "next_deadline": "2027-01-04"
+        }
+      }
+    },
+    {
+      "id": "emlds",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://emlds.fcsh.unl.pt/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-29",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://emlds.fcsh.unl.pt/",
+            "quote": "Deadline: 29 January 2027, 23:59 (WET)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-29",
+          "next_deadline": "2027-01-29"
+        }
+      }
+    },
+    {
+      "id": "floodrisk",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.floodriskmaster.org/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-03",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.floodriskmaster.org/",
+            "quote": "3 January 2027 (for non-European applicants); 7 February 2027 for European applicants",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-03",
+          "next_deadline": "2027-01-03"
+        }
+      }
+    },
+    {
+      "id": "intermaths",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.intermaths.eu/erasmus-mundus"
+      ],
+      "sections": [
+        "deadlines",
+        "competition"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-17",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.intermaths.eu/erasmus-mundus",
+            "quote": "Deadline: February 17 2027 at 1 pm CET",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-17",
+          "next_deadline": "2027-02-17"
+        },
+        "competition": {
+          "scholarships": 18,
+          "places": null,
+          "applicants": null,
+          "note": "18 EM scholarships",
+          "source_url": "https://www.intermaths.eu/erasmus-mundus",
+          "checked_on": "2026-11-27"
+        }
+      }
+    },
+    {
+      "id": "clide",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://clide.umk.pl/"
+      ],
+      "sections": [
+        "deadlines",
+        "competition"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-03-07",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://clide.umk.pl/",
+            "quote": "open from 22 February 2027 to 7 March 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-03-07",
+          "next_deadline": "2027-03-07"
+        },
+        "competition": {
+          "scholarships": 12,
+          "places": 30,
+          "applicants": null,
+          "note": "12 scholarship places; 30 study places",
+          "source_url": "https://clide.umk.pl/",
+          "checked_on": "2026-11-27"
+        }
+      }
+    },
+    {
+      "id": "epog-jm",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.epog.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-27",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.epog.eu/",
+            "quote": "January 27, 2027 - 13:00 (Paris time)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-27",
+          "next_deadline": "2027-01-27"
+        }
+      }
+    },
+    {
+      "id": "imete",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://apply.un-ihe.org/application-process/master-of-science-erasmus"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NO_SCHOLARSHIP",
+            "date": null,
+            "kind": null,
+            "intake": "2027",
+            "source_url": "https://apply.un-ihe.org/application-process/master-of-science-erasmus",
+            "quote": "No Erasmus Mundus Scholarships will be available for COASTHazar nor for IMETE for the academic year 2027/2029",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "coasthazar",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://apply.un-ihe.org/application-process/master-of-science-erasmus"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NO_SCHOLARSHIP",
+            "date": null,
+            "kind": null,
+            "intake": "2027",
+            "source_url": "https://apply.un-ihe.org/application-process/master-of-science-erasmus",
+            "quote": "No Erasmus Mundus Scholarships will be available for COASTHazar nor for IMETE for the academic year 2027/2029",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "sus2bioeng",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://emjm-sbbe.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NO_SCHOLARSHIP",
+            "date": null,
+            "kind": null,
+            "intake": "2027",
+            "source_url": "https://emjm-sbbe.eu/",
+            "quote": "The academic year 2025/26 marked the last edition where EMJM scholarship was offered",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "merged",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://merged.info/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NO_SCHOLARSHIP",
+            "date": null,
+            "kind": null,
+            "intake": "2027",
+            "source_url": "https://merged.info/",
+            "quote": "there are no Erasmus Mundus scholarships available for the MERGED programme in the 2027 student intake",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "red-global",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.red-global.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NO_SCHOLARSHIP",
+            "date": null,
+            "kind": null,
+            "intake": "2027",
+            "source_url": "https://www.red-global.eu/",
+            "quote": "there are no Erasmus Mundus scholarships available for this application round",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "s-disco",
+      "provenance": "hand_checked",
+      "sources": [
+        "http://sustainabledrugdiscovery.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NO_SCHOLARSHIP",
+            "date": null,
+            "kind": null,
+            "intake": "2027",
+            "source_url": "http://sustainabledrugdiscovery.eu/",
+            "quote": "The Programme is not organised in 2027.",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "ccd-stede",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://ccd-stede.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NO_SCHOLARSHIP",
+            "date": "2027-02-15",
+            "kind": "self_funded",
+            "intake": "2027",
+            "source_url": "https://ccd-stede.eu/",
+            "quote": "will not provide Erasmus Mundus scholarships; next call 2027/2029 will close on 15th February 2027",
+            "checked_on": "2026-11-27"
+          },
+          "self_funded_deadline": "2027-02-15",
+          "next_deadline": "2027-02-15"
+        }
+      }
+    },
+    {
+      "id": "emsse",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.emsse.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-15",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.emsse.eu/",
+            "quote": "recruitment campaign for scholarship holders for the 2027–2029 intake will run from November 15 2026 to February 15 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-15",
+          "next_deadline": "2027-02-15"
+        }
+      }
+    },
+    {
+      "id": "imatec",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://imatec-mundus.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-31",
+            "kind": "general",
+            "intake": "2027",
+            "source_url": "https://imatec-mundus.eu/",
+            "quote": "Application Period: Dec 1, 2026 – Jan 31, 2027",
+            "checked_on": "2026-11-27"
+          },
+          "next_deadline": "2027-01-31"
+        }
+      }
+    },
+    {
+      "id": "multiphase",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.multiphase-master.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-31",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.multiphase-master.eu/",
+            "quote": "January 31, 2027 End of the applications (11:59 PM Paris Time)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-31",
+          "next_deadline": "2027-01-31"
+        }
+      }
+    },
+    {
+      "id": "edu-mig",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.edumig.org/"
+      ],
+      "sections": [
+        "deadlines",
+        "competition"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-15",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.edumig.org/",
+            "quote": "Application period for 2027 will open on: 15th Dec. 2026 - 15th Feb. 2027 for scholarships",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-15",
+          "next_deadline": "2027-02-15"
+        },
+        "competition": {
+          "scholarships": null,
+          "places": 25,
+          "applicants": null,
+          "note": "~25 study places/year, majority scholarship-funded",
+          "source_url": "https://www.edumig.org/",
+          "checked_on": "2026-11-27"
+        }
+      }
+    },
+    {
+      "id": "noha",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.nohanet.org/masters"
+      ],
+      "sections": [
+        "deadlines",
+        "competition"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2026-12-15",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.nohanet.org/masters",
+            "quote": "15 December 2026, 23.59pm GMT: Deadline for Erasmus Mundus scholarship applications",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2026-12-15",
+          "next_deadline": "2026-12-15"
+        },
+        "competition": {
+          "scholarships": 16,
+          "places": null,
+          "applicants": null,
+          "note": "16 EM scholarships",
+          "source_url": "https://www.nohanet.org/masters",
+          "checked_on": "2026-11-27"
+        }
+      }
+    },
+    {
+      "id": "archmat",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.erasmusmundus-archmat.uevora.pt"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-03-15",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.erasmusmundus-archmat.uevora.pt",
+            "quote": "with deadline at 23:59 h (CET) on Monday 15th of March 2027 (scholarships conditional on EC renewal)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-03-15",
+          "next_deadline": "2027-03-15"
+        }
+      }
+    },
+    {
+      "id": "mass",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.master-mass.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "PREVIOUS_CYCLE",
+            "date": "2025-02-14",
+            "kind": null,
+            "intake": "2025",
+            "source_url": "https://www.master-mass.eu/",
+            "quote": "Deadline for applications: February 14th, 2025",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "terra",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://msc-terra.org/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "PREVIOUS_CYCLE",
+            "date": null,
+            "kind": null,
+            "intake": "2026",
+            "source_url": "https://msc-terra.org/",
+            "quote": "TERRA starts in September 2026. Three calls for application exist up to then.",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "navigaite-eu",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.haaga-helia.fi/en/master-k/joint-degree-programme-ai-business-transformation-master-business-administration"
+      ],
+      "sections": [
+        "deadlines",
+        "competition"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-08",
+            "kind": "scholarship",
+            "intake": "2028-01",
+            "source_url": "https://www.haaga-helia.fi/en/master-k/joint-degree-programme-ai-business-transformation-master-business-administration",
+            "quote": "Application period: from 25 January to 8 February 2027 at 23:59 Finnish time (January 2028 start)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-08",
+          "next_deadline": "2027-02-08"
+        },
+        "competition": {
+          "scholarships": 8,
+          "places": null,
+          "applicants": null,
+          "note": "50 EMJM scholarships over six years",
+          "source_url": "https://www.haaga-helia.fi/en/master-k/joint-degree-programme-ai-business-transformation-master-business-administration",
+          "checked_on": "2026-11-27"
+        }
+      }
+    },
+    {
+      "id": "chemoinformaticsplus",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://masterchemoinfo.u-strasbg.fr/"
+      ],
+      "sections": [
+        "deadlines",
+        "competition"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-03-15",
+            "kind": "general",
+            "intake": "2027",
+            "source_url": "https://masterchemoinfo.u-strasbg.fr/",
+            "quote": "Applications are open until March 15, 2027 !",
+            "checked_on": "2026-11-27"
+          },
+          "next_deadline": "2027-03-15"
+        },
+        "competition": {
+          "scholarships": 20,
+          "places": 25,
+          "applicants": null,
+          "note": "~20 EM scholarships / 25 places per edition (2022 text)",
+          "source_url": "https://masterchemoinfo.u-strasbg.fr/",
+          "checked_on": "2026-11-27"
+        }
+      }
+    },
+    {
+      "id": "ipcvai",
+      "provenance": "hand_checked",
+      "sources": [
+        "http://ipcv.eu/"
+      ],
+      "sections": [
+        "deadlines",
+        "competition"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-02",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "http://ipcv.eu/",
+            "quote": "November 1, 2026 - February 2, 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-02",
+          "next_deadline": "2027-02-02"
+        },
+        "competition": {
+          "scholarships": null,
+          "places": 25,
+          "applicants": 1600,
+          "note": "25 students selected from over 1600 applications",
+          "source_url": "http://ipcv.eu/",
+          "checked_on": "2026-11-27"
+        }
+      }
+    },
+    {
+      "id": "densys-2-0",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://densys.univ-lorraine.fr/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-27",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://densys.univ-lorraine.fr/",
+            "quote": "closes on 27 January 2027 at 6 pm Paris time",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-27",
+          "next_deadline": "2027-01-27"
+        }
+      }
+    },
+    {
+      "id": "eu-core",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://master-eu-core.ec-nantes.fr/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-31",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://master-eu-core.ec-nantes.fr/",
+            "quote": "Scolarship application: from november 1 2026 to january 31 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-31",
+          "next_deadline": "2027-01-31"
+        }
+      }
+    },
+    {
+      "id": "norisk",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://msc-norisk.org/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "PREVIOUS_CYCLE",
+            "date": "2026-04-15",
+            "kind": null,
+            "intake": "2026",
+            "source_url": "https://msc-norisk.org/",
+            "quote": "Applications deadline: April 15, 2026 at 23:59",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "edumah",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.gla.ac.uk/postgraduate/erasmusmundus/edumah/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NO_SCHOLARSHIP",
+            "date": null,
+            "kind": null,
+            "intake": "2027",
+            "source_url": "https://www.gla.ac.uk/postgraduate/erasmusmundus/edumah/",
+            "quote": "This Edition is offered on a self-funded basis only.",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "resound",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://resound-ma.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-12",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://resound-ma.eu/",
+            "quote": "will close on Tuesday the 12th of January (ReSound 2027)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-12",
+          "next_deadline": "2027-01-12"
+        }
+      }
+    },
+    {
+      "id": "emabg",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.emabg.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-15",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.emabg.eu/",
+            "quote": "The application round for the 3rd intake is open! (Until January 15th, 2027)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-15",
+          "next_deadline": "2027-01-15"
+        }
+      }
+    },
+    {
+      "id": "spacemed",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://space-med.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-21",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://space-med.eu/",
+            "quote": "The application platform (2027 intake) is now open until January 21st 2027 (11.59pm CET)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-21",
+          "next_deadline": "2027-01-21"
+        }
+      }
+    },
+    {
+      "id": "nucphys",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.emm-nucphys.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-15",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.emm-nucphys.eu/",
+            "quote": "The application period for 2027-2029 will be open till 15th of January 2027.",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-15",
+          "next_deadline": "2027-01-15"
+        }
+      }
+    },
+    {
+      "id": "global-minds",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://global-minds.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NO_SCHOLARSHIP",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://global-minds.eu/",
+            "quote": "previously co-funded by the European Union but currently self-funded",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "waves",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.msc-waves.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-15",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.msc-waves.eu/",
+            "quote": "Application deadline 15 January 2027 (23:59 CET)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-15",
+          "next_deadline": "2027-01-15"
+        }
+      }
+    },
+    {
+      "id": "emphid",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://masterpublichealthdisasters.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2026-12-31",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://masterpublichealthdisasters.eu/",
+            "quote": "The application period will be open from October 1 to December 31, 2026",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2026-12-31",
+          "next_deadline": "2026-12-31"
+        }
+      }
+    },
+    {
+      "id": "live-innov",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://masterlive-vaccinology.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-20",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://masterlive-vaccinology.eu/",
+            "quote": "MyLIVE, the platform to apply for the Master LIVE, is open until January 20, 2027.",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-20",
+          "next_deadline": "2027-01-20"
+        }
+      }
+    },
+    {
+      "id": "serp",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://master-serp.com/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-12",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://master-serp.com/",
+            "quote": "application campaign (class of 27-29) will be open from November 2nd, 2026, to February 12th, 2027 (23:59, CET)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-12",
+          "next_deadline": "2027-02-12"
+        }
+      }
+    },
+    {
+      "id": "emma",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://mundusjournalism.com"
+      ],
+      "sections": [
+        "deadlines",
+        "competition"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-10",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://mundusjournalism.com",
+            "quote": "The call for the 2027–2029 programme is open from 1 November 2026 to 10 January 2027 13:00 CET",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-10",
+          "next_deadline": "2027-01-10"
+        },
+        "competition": {
+          "scholarships": 10,
+          "places": null,
+          "applicants": 700,
+          "note": "10-15 EM scholarships; up to 700 applications/yr",
+          "source_url": "https://mundusjournalism.com",
+          "checked_on": "2026-11-27"
+        }
+      }
+    },
+    {
+      "id": "grenfin",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://site.unibo.it/grenfin-emjm"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-07",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://site.unibo.it/grenfin-emjm",
+            "quote": "Call for applications edition 2027-2029 - Opening on October 14, 2026 (deadline: January 7, 2027)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-07",
+          "next_deadline": "2027-01-07"
+        }
+      }
+    },
+    {
+      "id": "cybermacs",
+      "provenance": "hand_checked",
+      "sources": [
+        "http://cybermacs.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "UNREACHABLE",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "http://cybermacs.eu/",
+            "quote": "Site returned HTTP 525 (SSL handshake failed) on 2026-11-27",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "cyberus",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://master-cyberus.eu/admission/schedule-and-selection-process"
+      ],
+      "sections": [
+        "deadlines",
+        "competition"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NO_SCHOLARSHIP",
+            "date": "2027-03-31",
+            "kind": "self_funded",
+            "intake": "2027",
+            "source_url": "https://master-cyberus.eu/admission/schedule-and-selection-process",
+            "quote": "1 December 2026 Start of campaign, 31 March 2027 Submission deadline; up to 20 students, 5 with a consortium scholarship equivalent to a fee waiver",
+            "checked_on": "2026-11-27"
+          },
+          "self_funded_deadline": "2027-03-31",
+          "next_deadline": "2027-03-31"
+        },
+        "competition": {
+          "scholarships": 0,
+          "places": 20,
+          "applicants": null,
+          "note": "5 fee-waiver places of 20",
+          "source_url": "https://master-cyberus.eu/admission/schedule-and-selection-process",
+          "checked_on": "2026-11-27"
+        }
+      }
+    },
+    {
+      "id": "emai",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.upf.edu/web/emai/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-02",
+            "kind": "general",
+            "intake": "2027",
+            "source_url": "https://www.upf.edu/web/emai/",
+            "quote": "Applications for Tuition Fee Waiver (TFW) candidates are now open! Deadline: February 2, 2027 CET",
+            "checked_on": "2026-11-27"
+          },
+          "next_deadline": "2027-02-02"
+        }
+      }
+    },
+    {
+      "id": "ediss",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.master-ediss.eu/upcoming-application-rounds-ediss-intake-7/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-12",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.master-ediss.eu/upcoming-application-rounds-ediss-intake-7/",
+            "quote": "Round for Erasmus Mundus and EDISS Scholarship applications ... closing on 12.01.2027 at 3:00 pm Helsinki time",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-12",
+          "next_deadline": "2027-01-12"
+        }
+      }
+    },
+    {
+      "id": "imaging",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.emjm-imaging.eu/application-and-admission/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-12",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.emjm-imaging.eu/application-and-admission/",
+            "quote": "First application round: 23rd November 2026 (09:00 UTC+2) to 12th January 2027 (15:00 UTC+2)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-12",
+          "next_deadline": "2027-01-12"
+        }
+      }
+    },
+    {
+      "id": "imlex",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.imlex.org/how-to-apply/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-13",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.imlex.org/how-to-apply/",
+            "quote": "Next application round will be open from 2 December 2026 to 13 January 2027. Full Erasmus Mundus (EMJM) scholarships will be available",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-13",
+          "next_deadline": "2027-01-13"
+        }
+      }
+    },
+    {
+      "id": "maths-disc",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.mathsdisc.eu/admission/how-to-apply/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-26",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.mathsdisc.eu/admission/how-to-apply/",
+            "quote": "Admissions for Academic Year 2027-2028 ... Deadline February 26 2027, 17.00 CET",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-26",
+          "next_deadline": "2027-02-26"
+        }
+      }
+    },
+    {
+      "id": "multicom",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://multicom-em.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_PUBLISHED",
+            "date": null,
+            "kind": null,
+            "intake": "2027",
+            "source_url": "https://multicom-em.eu/",
+            "quote": "Applications are currently closed. The new application period is expected to open on November 1, 2026 or soon thereafter.",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "neurodata",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.neurodata-master.org/online-application"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-05",
+            "kind": "general",
+            "intake": "2027",
+            "source_url": "https://www.neurodata-master.org/online-application",
+            "quote": "The application system will be open from November 15th 2026, to February 5th 2027 (SUBMISSION DEADLINE)",
+            "checked_on": "2026-11-27"
+          },
+          "next_deadline": "2027-02-05"
+        }
+      }
+    },
+    {
+      "id": "re-play",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.replaymasters.eu/admissions-and-requirements.html"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-08",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.replaymasters.eu/admissions-and-requirements.html",
+            "quote": "Application period: 7th October 2026 to 8th January 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-08",
+          "next_deadline": "2027-01-08"
+        }
+      }
+    },
+    {
+      "id": "sites-jm",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://aissprogram.eu/scholarships/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-02",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://aissprogram.eu/scholarships/",
+            "quote": "Application 2 Dec 2026 — 2 Feb 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-02",
+          "next_deadline": "2027-02-02"
+        }
+      }
+    },
+    {
+      "id": "bioceb",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.bioceb.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "UNREACHABLE",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.bioceb.eu/",
+            "quote": "Site served a bot security-check page (HTTP 503) on 2026-11-27",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "cne",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://master-cne.eu/index.php/application-information/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-15",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://master-cne.eu/index.php/application-information/",
+            "quote": "The applications for next academic year are open from November 1st to February 15th 2027.",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-15",
+          "next_deadline": "2027-02-15"
+        }
+      }
+    },
+    {
+      "id": "amir-em",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.amir-em-master.com/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NO_SCHOLARSHIP",
+            "date": "2027-01-29",
+            "kind": "general",
+            "intake": "2027",
+            "source_url": "https://www.amir-em-master.com/",
+            "quote": "call for applications ... for 2027-2029 is opened until 29 of January at 12pm (french time) - (it is for EIT scholarship, not erasmus mundus)",
+            "checked_on": "2026-11-27"
+          },
+          "next_deadline": "2027-01-29"
+        }
+      }
+    },
+    {
+      "id": "dream",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://master-dream.ec-nantes.fr/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://master-dream.ec-nantes.fr/",
+            "quote": "No 2027 deadline found on homepage or linked admission pages",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "emerald",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.emerald.uliege.be/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.emerald.uliege.be/",
+            "quote": "No 2027 deadline found on homepage or linked admission pages",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "eminent",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://eminent-master.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_PUBLISHED",
+            "date": null,
+            "kind": null,
+            "intake": "2027",
+            "source_url": "https://eminent-master.eu/",
+            "quote": "Application period starts on 1 November 2026 (closing date not shown)",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "emjm-steps",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.emjmdstepsrock.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-08",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.emjmdstepsrock.eu/",
+            "quote": "The call for applications is open until 8th January 2027, for the academic course starting on September 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-08",
+          "next_deadline": "2027-01-08"
+        }
+      }
+    },
+    {
+      "id": "emmbiome",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://emmbiome.eu/important-dates/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "PREVIOUS_CYCLE",
+            "date": "2026-02-27",
+            "kind": null,
+            "intake": "2026",
+            "source_url": "https://emmbiome.eu/important-dates/",
+            "quote": "Application submission deadline 27/02/2026",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "emship",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://emship.eu/how-to-apply/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-31",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://emship.eu/how-to-apply/",
+            "quote": "The deadline for scholarship applications close 31 January (annual rule; 2027-2028 applications open)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-31",
+          "next_deadline": "2027-01-31"
+        }
+      }
+    },
+    {
+      "id": "eu4m",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.eu4m.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-15",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.eu4m.eu/",
+            "quote": "2027-2029 INTAKE ... students interested in an EACEA scholarship ... may apply until January 15th",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-15",
+          "next_deadline": "2027-01-15"
+        }
+      }
+    },
+    {
+      "id": "fameais",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.fame-master.eu/admissions/apply-to-be-master-student/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-03-26",
+            "kind": "self_funded",
+            "intake": "2027",
+            "source_url": "https://www.fame-master.eu/admissions/apply-to-be-master-student/",
+            "quote": "Students applying ... with their own-financial means: November 23th, 2026 – March 26th, 2027 (bridging cohort 2027-2029; EM scholarship not confirmed)",
+            "checked_on": "2026-11-27"
+          },
+          "self_funded_deadline": "2027-03-26",
+          "next_deadline": "2027-03-26"
+        }
+      }
+    },
+    {
+      "id": "frp",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://msc-frp.org/applications/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": "2027",
+            "source_url": "https://msc-frp.org/applications/",
+            "quote": "No 2027 deadline found on the applications page",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "greenano",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.greenanomaster.eu/application-and-selection"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-06",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.greenanomaster.eu/application-and-selection",
+            "quote": "... October 2026 to 6 January 2027 GREENANO application platform",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-06",
+          "next_deadline": "2027-01-06"
+        }
+      }
+    },
+    {
+      "id": "hyset",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://hysetmaster.polito.it/news/updates-on-the-selection-process-and-scholarship-availability"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2026-11-15",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://hysetmaster.polito.it/news/updates-on-the-selection-process-and-scholarship-availability",
+            "quote": "The application period officially closed on 15 November 2026.",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2026-11-15",
+          "next_deadline": "2026-11-15"
+        }
+      }
+    },
+    {
+      "id": "i-mesc",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://i-mesc.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-26",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://i-mesc.eu/",
+            "quote": "Applications for Class#23 should open on 9th November 2026 ... and close on 26th January 2027 12:00 pm (Paris Time) indicative dates",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-26",
+          "next_deadline": "2027-01-26"
+        }
+      }
+    },
+    {
+      "id": "ibisa",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://put.poznan.pl/en/admission-for-international"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://put.poznan.pl/en/admission-for-international",
+            "quote": "Catalogue link is the university homepage; no IBISA deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "ifros",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://ifrosmaster.org/ifros-applicants/fees-grants"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://ifrosmaster.org/ifros-applicants/fees-grants",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "imfse",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://imfse.be/deadlines"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "ANNUAL_RULE",
+            "date": "2027-01-31",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://imfse.be/deadlines",
+            "quote": "Scholarship applications need to be submitted before 1 February (annual rule)",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "ipsrs",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://master-photonics4security.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://master-photonics4security.eu/",
+            "quote": "Only Eiffel-scholarship dates shown; no 2027 EM deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "mamaself",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.mamaself.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.mamaself.eu/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "mesd",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://mesd.edu.umontpellier.fr/how-to-apply/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "PREVIOUS_CYCLE",
+            "date": "2026-01-28",
+            "kind": null,
+            "intake": "2026",
+            "source_url": "https://mesd.edu.umontpellier.fr/how-to-apply/",
+            "quote": "The campaign for Intake 4, 2026–2028 ... to January 21, 2026 ... extended to January 28, 2026. APPLICATIONS ARE CLOSED",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "meta-4-0",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.master-meta4-0.eu"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "UNREACHABLE",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.master-meta4-0.eu",
+            "quote": "Page did not finish loading within 50 s on 2026-11-27",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "minder",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.up.pt/minder/web/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.up.pt/minder/web/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "ms2",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.ms2master.com/how-to-apply"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.ms2master.com/how-to-apply",
+            "quote": "No 2027 deadline found on application page",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "promise",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.master-promise.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.master-promise.eu/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "rem-plus-plus",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://master-remplus2.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "UNREACHABLE",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://master-remplus2.eu/",
+            "quote": "Navigation failed on 2026-11-27",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "sarena",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.imt-atlantique.fr/en/study/masters/emjmd/sarena"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.imt-atlantique.fr/en/study/masters/emjmd/sarena",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "smaccs",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.smaccs.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.smaccs.eu/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "ssi2",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://ssi-master.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-10",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://ssi-master.eu/",
+            "quote": "Application deadlines 10 January Scholarship and non-EU/EEA applicants",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-10",
+          "next_deadline": "2027-01-10"
+        }
+      }
+    },
+    {
+      "id": "strains",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.master-strains.eu/how-to-apply/application-procedure"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-03",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.master-strains.eu/how-to-apply/application-procedure",
+            "quote": "you automatically apply for an Erasmus Mundus (EMJM) scholarship ... Call closes on: February 3rd, 2027 - 23:59",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-03",
+          "next_deadline": "2027-02-03"
+        }
+      }
+    },
+    {
+      "id": "resco",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://resco-master.eu/admission/deadlines/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_PUBLISHED",
+            "date": "2027-02",
+            "kind": null,
+            "intake": "2027",
+            "source_url": "https://resco-master.eu/admission/deadlines/",
+            "quote": "The application portal for the 2027 intake will open on November 16, 2026 ... Deadline: February 2027",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "tfmasa",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://tfmasa.com/key-dates-admission/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2026-12-01",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://tfmasa.com/key-dates-admission/",
+            "quote": "Next application call for 2027-2029 cohort (EMJM scholarships & Self-funded): ... Close: 1st December 2026, at 10:00 (CET)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2026-12-01",
+          "next_deadline": "2026-12-01"
+        }
+      }
+    },
+    {
+      "id": "bioverte",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://bioverte.us.edu.pl/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://bioverte.us.edu.pl/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "carto",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://cartographymaster.eu/how-to-apply/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "PREVIOUS_CYCLE",
+            "date": "2026-05-31",
+            "kind": null,
+            "intake": "2026",
+            "source_url": "https://cartographymaster.eu/how-to-apply/",
+            "quote": "Application for the 2026 intake (program start: 1.10.2026) was open from 1.1. to 31.5.2026",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "comem",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.ntnu.edu/studies/mscomema"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.ntnu.edu/studies/mscomema",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "eesic",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://eesic.eu/admission"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": "2027",
+            "source_url": "https://eesic.eu/admission",
+            "quote": "Only graduation deadlines (30 June 2027) shown; no application deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "gem",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.gem-msc.eu/apply-to-gem/admission-and-eligibility/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-15",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.gem-msc.eu/apply-to-gem/admission-and-eligibility/",
+            "quote": "The official English-language certificate must be available by the application deadline (15 January 2027)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-15",
+          "next_deadline": "2027-01-15"
+        }
+      }
+    },
+    {
+      "id": "geotech",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://mastergeotech.info/how-to-apply/dates-and-deadlines/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-07",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://mastergeotech.info/how-to-apply/dates-and-deadlines/",
+            "quote": "Scholarship applications: Open until January 7th 2027, 18.00",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-07",
+          "next_deadline": "2027-01-07"
+        }
+      }
+    },
+    {
+      "id": "globe",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://globe-master.eu/apply/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-04",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://globe-master.eu/apply/",
+            "quote": "The application period will be open from 28th September 2026 until 4th January 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-04",
+          "next_deadline": "2027-01-04"
+        }
+      }
+    },
+    {
+      "id": "glofor",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://globalforestry.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "UNREACHABLE",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://globalforestry.eu/",
+            "quote": "Site served a bot security-check page (HTTP 503) on 2026-11-27",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "groundwatch",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.groundwatermaster.eu/how-to-apply"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-03",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.groundwatermaster.eu/how-to-apply",
+            "quote": "Submission deadlines for an Erasmus Mundus Scholarship application: 3 January 2027 (for non-European applicants) / 7 February 2027 (Programme Countries)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-03",
+          "next_deadline": "2027-01-03"
+        }
+      }
+    },
+    {
+      "id": "imsoglo",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://imsoglo.eu/admission-application/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-28",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://imsoglo.eu/admission-application/",
+            "quote": "... Erasmus Mundus scholarship for intake September 2027 is 28 February 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-28",
+          "next_deadline": "2027-02-28"
+        }
+      }
+    },
+    {
+      "id": "islands",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://islandsmaster.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NO_SCHOLARSHIP",
+            "date": null,
+            "kind": null,
+            "intake": "2027",
+            "source_url": "https://islandsmaster.eu/",
+            "quote": "Applications for the 2027 academic year open on 15 November 2026. Please note that no Erasmus Mundus scholarships will be available",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "maeh",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://maeh-mundus.eu/online-application-form/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NO_SCHOLARSHIP",
+            "date": null,
+            "kind": null,
+            "intake": "2026",
+            "source_url": "https://maeh-mundus.eu/online-application-form/",
+            "quote": "The 2026-28 edition will run exclusively with self-funded students (no 2027 information)",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "medfor",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.medfor.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "UNREACHABLE",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.medfor.eu/",
+            "quote": "Navigation failed on 2026-11-27",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "mespom",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://mespom.eu/application-deadlines-and-admissions-calendar"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-07",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://mespom.eu/application-deadlines-and-admissions-calendar",
+            "quote": "Application deadlines for the 2027-2029 study period ... January 7, 2027*: DEADLINE for ... financial aid",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-07",
+          "next_deadline": "2027-01-07"
+        }
+      }
+    },
+    {
+      "id": "msc-ef",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://sites.uef.fi/europeanforestry/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-13",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://sites.uef.fi/europeanforestry/",
+            "quote": "2 December 2026 – 13 January 2027 for the course starting in August 2027. EMJM scholarships will be available on a competitive basis",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-13",
+          "next_deadline": "2027-01-13"
+        }
+      }
+    },
+    {
+      "id": "sosmer",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://merconsortium.eu/application-enrolment/application-process/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "PREVIOUS_CYCLE",
+            "date": "2026-03-27",
+            "kind": null,
+            "intake": "2026",
+            "source_url": "https://merconsortium.eu/application-enrolment/application-process/",
+            "quote": "Call 2025 (2026-2028 intake) open only for self-funded students ... First Round Deadline: March 27th 2026",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "sufonama",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://em-sufonama.eu"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "UNREACHABLE",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://em-sufonama.eu",
+            "quote": "Page did not finish loading within 50 s on 2026-11-27",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "sustagri",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://sustagri-em.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": "2027",
+            "source_url": "https://sustagri-em.eu/",
+            "quote": "Applications open for the third edition (2027-2029), open to full scholarship holders; no closing date on page",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "arurcohe",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.arurcohe.com/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.arurcohe.com/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "choreomundus",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://choreomundus.org/for-applicants/deadlines/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-15",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://choreomundus.org/for-applicants/deadlines/",
+            "quote": "For scholarships and/or tuition waivers Deadline to apply for the programme 15 January 2027, 23:59:59 EET",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-15",
+          "next_deadline": "2027-01-15"
+        }
+      }
+    },
+    {
+      "id": "clmce",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.gla.ac.uk/postgraduate/erasmusmundus/clmce/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-22",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.gla.ac.uk/postgraduate/erasmusmundus/clmce/",
+            "quote": "Applications for September 2027 entry are now open. Erasmus Mundus Scholarship deadline: 22nd January 2027 13:00 (UK TIME)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-22",
+          "next_deadline": "2027-01-22"
+        }
+      }
+    },
+    {
+      "id": "digicrea",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://master-digicrea.univ-st-etienne.fr/en/join-digicrea/how-to-apply.html"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-17",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://master-digicrea.univ-st-etienne.fr/en/join-digicrea/how-to-apply.html",
+            "quote": "The call for applications for the upcoming DIGICREA 2027–2029 cohort ... will close on February 17, 2027 at 11.00 pm (French time)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-17",
+          "next_deadline": "2027-02-17"
+        }
+      }
+    },
+    {
+      "id": "emcl-25",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.emcl.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2026-12-01",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.emcl.eu/",
+            "quote": "The application portal for the intake 2027-2029 opens on October 1 and closes on December 1, 2026",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2026-12-01",
+          "next_deadline": "2026-12-01"
+        }
+      }
+    },
+    {
+      "id": "emjm-emlex",
+      "provenance": "hand_checked",
+      "sources": [
+        "http://www.emlex.eu.usc.gal/web/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "http://www.emlex.eu.usc.gal/web/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "imqp",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://quaternaryprehistory.eu/admissions"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "PREVIOUS_CYCLE",
+            "date": "2026-02-27",
+            "kind": null,
+            "intake": "2026",
+            "source_url": "https://quaternaryprehistory.eu/admissions",
+            "quote": "NEW CALL FOR APPLICATION 2026/2027 ... Deadline: February 27th 2026 (new call will open in December)",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "filmmemory",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://filmmemory.eu/application/call-for-applicants"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-20",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://filmmemory.eu/application/call-for-applicants",
+            "quote": "Application for 2027-2029 now open. The entire application must be submitted by 20 January 2027 at 11:59 PM (CET)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-20",
+          "next_deadline": "2027-01-20"
+        }
+      }
+    },
+    {
+      "id": "kem",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.kinoeyes.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.kinoeyes.eu/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "magma",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.magma-erasmusmundus.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "UNREACHABLE",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.magma-erasmusmundus.eu/",
+            "quote": "Navigation failed on 2026-11-27",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "multidiverse",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.multidiverse.eu/applications"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-15",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.multidiverse.eu/applications",
+            "quote": "Application period for the 2027-2029 intake: 23rd November 2026 - 15th January 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-15",
+          "next_deadline": "2027-01-15"
+        }
+      }
+    },
+    {
+      "id": "relic",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.relic-ma.eu/copia-de-degree-policy"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-28",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.relic-ma.eu/copia-de-degree-policy",
+            "quote": "only one application deadline for both Erasmus Mundus scholarship and self-funded applicants: 28 February 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-28",
+          "next_deadline": "2027-02-28"
+        }
+      }
+    },
+    {
+      "id": "responseablefutures",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.response-able-futures.eu/application"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-20",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.response-able-futures.eu/application",
+            "quote": "application portal for the September 2027 intake will open on October 20th, 2026 and close on January 20th 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-20",
+          "next_deadline": "2027-01-20"
+        }
+      }
+    },
+    {
+      "id": "telme",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://telme.hypotheses.org/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://telme.hypotheses.org/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "theatre-spaces",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.theatre-spaces.eu/admission"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2026-12-01",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.theatre-spaces.eu/admission",
+            "quote": "Applications for the 2027 intake are now open. The deadline is 1 December 2026",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2026-12-01",
+          "next_deadline": "2026-12-01"
+        }
+      }
+    },
+    {
+      "id": "tngs-emjm",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://transnationalgermanstudies.eu/en/application/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://transnationalgermanstudies.eu/en/application/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "tpti",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.tpti.eu/en/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.tpti.eu/en/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "aquah",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://aquah.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://aquah.eu/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "biopham",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.master-biopham.eu/apply/apply"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-01",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.master-biopham.eu/apply/apply",
+            "quote": "Opening: 1 November 2026 ... Deadline for electronic submission: 1 February 2027 (23:59 Brussels time)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-01",
+          "next_deadline": "2027-02-01"
+        }
+      }
+    },
+    {
+      "id": "dafm",
+      "provenance": "hand_checked",
+      "sources": [
+        "http://agrifoodmaster.eu/index.html"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "http://agrifoodmaster.eu/index.html",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "ectplus-one-health",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.ectplus.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "UNREACHABLE",
+            "date": null,
+            "kind": null,
+            "intake": "2027",
+            "source_url": "https://www.ectplus.eu/",
+            "quote": "Navigation failed on 2026-11-27 (homepage earlier said the 2027-2029 portal is open, no date)",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "emjm-aces-star",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.emm-aces.org/apply/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-29",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.emm-aces.org/apply/",
+            "quote": "Full scholarships applicants Applications Open: Tuesday 5th January 2027 Applications Close: Friday 29th January 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-29",
+          "next_deadline": "2027-01-29"
+        }
+      }
+    },
+    {
+      "id": "emmah",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://master-emmah.eu/application-and-admission/application"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "PREVIOUS_CYCLE",
+            "date": null,
+            "kind": null,
+            "intake": "2026",
+            "source_url": "https://master-emmah.eu/application-and-admission/application",
+            "quote": "campaign for 2026–2028 for fee-waiver and self-funded students only is now open until 21 February",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "emotion",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.emotion-master.eu/application/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-31",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.emotion-master.eu/application/",
+            "quote": "From November the 1st to January 31st for the first round (annual rule)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-31",
+          "next_deadline": "2027-01-31"
+        }
+      }
+    },
+    {
+      "id": "eph-plus",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.europubhealth.org/application-procedure/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-08",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.europubhealth.org/application-procedure/",
+            "quote": "(2027-2029 intake) 8. January 2027 (1:00 pm CET): applications for Erasmus Mundus scholarships should be sent before this deadline",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-08",
+          "next_deadline": "2027-01-08"
+        }
+      }
+    },
+    {
+      "id": "hygieia",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.hygieiamaster.eu/admission/application-timings"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.hygieiamaster.eu/admission/application-timings",
+            "quote": "No 2027 deadline found on application-timings page",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "idoh-next",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.infectious-diseases-one-health.eu/how-to-apply-1/application-documents/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-15",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.infectious-diseases-one-health.eu/how-to-apply-1/application-documents/",
+            "quote": "December 1, 2026, and January 15, 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-15",
+          "next_deadline": "2027-01-15"
+        }
+      }
+    },
+    {
+      "id": "imagein",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://life.univ-cotedazur.eu/international/imagein/application-and-registration-to-emjm-imagein"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-03-06",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://life.univ-cotedazur.eu/international/imagein/application-and-registration-to-emjm-imagein",
+            "quote": "APPLICATIONS OPENING DATE: 6 January 2027 ... APPLICATION DEADLINE: 6 March 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-03-06",
+          "next_deadline": "2027-03-06"
+        }
+      }
+    },
+    {
+      "id": "fipdes",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.fipdes.eu/?FIPDes-application-Calendar-Deadlines"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-25",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.fipdes.eu/?FIPDes-application-Calendar-Deadlines",
+            "quote": "First round: OPEN online application: before January 25th, 2027, 14:00 (CET)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-25",
+          "next_deadline": "2027-01-25"
+        }
+      }
+    },
+    {
+      "id": "imbrsea",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.imbrsea.eu/how-apply"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-28",
+            "kind": "general",
+            "intake": "2027",
+            "source_url": "https://www.imbrsea.eu/how-apply",
+            "quote": "IMBRSea call for applications for Cohort 2027 will be open from Tuesday December 1st 2026 until Sunday February 28th 2027",
+            "checked_on": "2026-11-27"
+          },
+          "next_deadline": "2027-02-28"
+        }
+      }
+    },
+    {
+      "id": "imim",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.innovativemedicine.eu/home"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-04",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.innovativemedicine.eu/home",
+            "quote": "Applications for the academic year 2027–2028 is open now. The deadline to submit your application is 04 January 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-04",
+          "next_deadline": "2027-01-04"
+        }
+      }
+    },
+    {
+      "id": "issf",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://issf-master.eu/how-to-apply"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-10",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://issf-master.eu/how-to-apply",
+            "quote": "Application Deadline: 10 February 2027 (1 February for recommendation letters)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-10",
+          "next_deadline": "2027-02-10"
+        }
+      }
+    },
+    {
+      "id": "jmpmb-community",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.eu-conexus.eu/en/marine-biotechnology/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-31",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.eu-conexus.eu/en/marine-biotechnology/",
+            "quote": "1st Call for Applications 1 December 2026 – 31 January 2027 Erasmus Mundus scholarship available",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-31",
+          "next_deadline": "2027-01-31"
+        }
+      }
+    },
+    {
+      "id": "membiomed",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://life.univ-cotedazur.eu/international/membiomed"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://life.univ-cotedazur.eu/international/membiomed",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "morphophen",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://morphophen.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://morphophen.eu/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "neurasmus",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.neurasmus.u-bordeaux.fr/admission/key-dates-admission/"
+      ],
+      "sections": [
+        "deadlines",
+        "competition"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2026-12-15",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.neurasmus.u-bordeaux.fr/admission/key-dates-admission/",
+            "quote": "Next application call for 2027-2029 cohort (EMJM scholarships): Open: September 01st ... Close: December 15th 12:00PM CET",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2026-12-15",
+          "next_deadline": "2026-12-15"
+        },
+        "competition": {
+          "scholarships": null,
+          "places": 20,
+          "applicants": 800,
+          "note": "20 selected students from 800+ candidates",
+          "source_url": "https://www.neurasmus.u-bordeaux.fr/",
+          "checked_on": "2026-11-27"
+        }
+      }
+    },
+    {
+      "id": "tropimundo",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.tropimundo.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NO_SCHOLARSHIP",
+            "date": "2027-04-30",
+            "kind": "self_funded",
+            "intake": "2027",
+            "source_url": "https://www.tropimundo.eu/",
+            "quote": "applications from self-funded applicants only from all countries will be open until the deadline of 30 April 2027",
+            "checked_on": "2026-11-27"
+          },
+          "self_funded_deadline": "2027-04-30",
+          "next_deadline": "2027-04-30"
+        }
+      }
+    },
+    {
+      "id": "planthealth3",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.planthealth.upv.es/web/apply/calendar-deadlines/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2026-12-31",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.planthealth.upv.es/web/apply/calendar-deadlines/",
+            "quote": "First call for applications (including EMJM scholarship) for Master intake 12 (2027/2029) ... Deadline: 31st December 2026",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2026-12-31",
+          "next_deadline": "2026-12-31"
+        }
+      }
+    },
+    {
+      "id": "chir",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.emmcchir.org/admissions/admissions-faq"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-26",
+            "kind": "general",
+            "intake": "2027",
+            "source_url": "https://www.emmcchir.org/admissions/admissions-faq",
+            "quote": "Applications for the 2027–2029 intake opened on 16 November 2026. The first application call closes on 26 February 2027",
+            "checked_on": "2026-11-27"
+          },
+          "next_deadline": "2027-02-26"
+        }
+      }
+    },
+    {
+      "id": "each",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://each.ut.ee/EACH/tuition-fees-scholarships/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-05",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://each.ut.ee/EACH/tuition-fees-scholarships/",
+            "quote": "For intake 2027 ... Applicants who applied during admission period 1 (Nov 5, 2026 – Jan 5, 2027) will be considered for the Erasmus Mundus scholarships",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-05",
+          "next_deadline": "2027-01-05"
+        }
+      }
+    },
+    {
+      "id": "europhotonics",
+      "provenance": "hand_checked",
+      "sources": [
+        "http://www.europhotonics.org/wordpress/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-04",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "http://www.europhotonics.org/wordpress/",
+            "quote": "The recruitment campaign for Intake 2027-2029 is opening soon - Nov 1st to Feb 4th",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-04",
+          "next_deadline": "2027-02-04"
+        }
+      }
+    },
+    {
+      "id": "geoplanet",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://geoplanet-impg.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NO_SCHOLARSHIP",
+            "date": "2027-02-28",
+            "kind": "self_funded",
+            "intake": "2027",
+            "source_url": "https://geoplanet-impg.eu/",
+            "quote": "The application period for the September 2027 intake will ... close on February 28, 2027 ... this call will be open for self-funded students only",
+            "checked_on": "2026-11-27"
+          },
+          "self_funded_deadline": "2027-02-28",
+          "next_deadline": "2027-02-28"
+        }
+      }
+    },
+    {
+      "id": "imapp",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://imapp.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "UNREACHABLE",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://imapp.eu/",
+            "quote": "Site returned HTTP 503 on 2026-11-27",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "lascala",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.master-lascala.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-17",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.master-lascala.eu/",
+            "quote": "2027–2029 LASCALA cohort ... Scholarship application deadline: February 17th, 2027 (23:59 CET)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-17",
+          "next_deadline": "2027-02-17"
+        }
+      }
+    },
+    {
+      "id": "quanteem-plus",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.quanteem.eu/registration/"
+      ],
+      "sections": [
+        "deadlines",
+        "competition"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-04-04",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.quanteem.eu/registration/",
+            "quote": "Applications for the 2027 intake of QuanTEEM will open on January 25th, 2027 and will close on April, 4th, 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-04-04",
+          "next_deadline": "2027-04-04"
+        },
+        "competition": {
+          "scholarships": 20,
+          "places": null,
+          "applicants": null,
+          "note": "~20 EM scholarships",
+          "source_url": "https://www.quanteem.eu/registration/",
+          "checked_on": "2026-11-27"
+        }
+      }
+    },
+    {
+      "id": "quarmen",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.master-quarmen.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-03-31",
+            "kind": "general",
+            "intake": "2027",
+            "source_url": "https://www.master-quarmen.eu/",
+            "quote": "The application campaign (class of 27-29) will be open from December 14th, 2026, to March 31st, 2027",
+            "checked_on": "2026-11-27"
+          },
+          "next_deadline": "2027-03-31"
+        }
+      }
+    },
+    {
+      "id": "radmep",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://master-radmep.org/deadlines/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-09",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://master-radmep.org/deadlines/",
+            "quote": "Feb 9, 2027 — 12:00 UTC Application deadline \"scholarships\"",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-09",
+          "next_deadline": "2027-02-09"
+        }
+      }
+    },
+    {
+      "id": "sucat",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.master-sucat.eu/how-to-apply/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-19",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.master-sucat.eu/how-to-apply/",
+            "quote": "Call for applications is open from October 23rd, 2026 to February 19th, 2027 (23:59, Brussels' time)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-19",
+          "next_deadline": "2027-02-19"
+        }
+      }
+    },
+    {
+      "id": "tccm",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.emtccm.org/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.emtccm.org/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "cyber",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://cyber-t.eu/key-dates/"
+      ],
+      "sections": [
+        "deadlines",
+        "competition"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-31",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://cyber-t.eu/key-dates/",
+            "quote": "31 JANUARY Main application deadline ... including scholarship applicants (2027-2029 intake open)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-31",
+          "next_deadline": "2027-01-31"
+        },
+        "competition": {
+          "scholarships": null,
+          "places": 19,
+          "applicants": null,
+          "note": "up to 19 students per intake",
+          "source_url": "https://cyber-t.eu/key-dates/",
+          "checked_on": "2026-11-27"
+        }
+      }
+    },
+    {
+      "id": "egei",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.master-egei.eu/how-to-apply/"
+      ],
+      "sections": [
+        "deadlines",
+        "competition"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-28",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.master-egei.eu/how-to-apply/",
+            "quote": "ONLY APPLICATIONS SUBMITTED BY FEBRUARY 28TH 2027 WILL BE CONSIDERED FOR THE SCHOLARSHIP",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-28",
+          "next_deadline": "2027-02-28"
+        },
+        "competition": {
+          "scholarships": 10,
+          "places": null,
+          "applicants": null,
+          "note": "10 full EM scholarships",
+          "source_url": "https://www.master-egei.eu/",
+          "checked_on": "2026-11-27"
+        }
+      }
+    },
+    {
+      "id": "emgs",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://globalstudies-masters.eu/admission/application/application-documents/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-28",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://globalstudies-masters.eu/admission/application/application-documents/",
+            "quote": "The application deadline for students applying for the Erasmus Mundus Scholarship is 28 February 2027, 23:59 CET",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-28",
+          "next_deadline": "2027-02-28"
+        }
+      }
+    },
+    {
+      "id": "emildai",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://emildai.eu/admissions/how-to-apply/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-17",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://emildai.eu/admissions/how-to-apply/",
+            "quote": "First round of applications for 2027/2029 open on November 16th 2026 and will close on January 17th 2027. Applicants in the first round will be considered for all scholarships",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-17",
+          "next_deadline": "2027-01-17"
+        }
+      }
+    },
+    {
+      "id": "emle",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://emle.org/application-2/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2026-12-31",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://emle.org/application-2/",
+            "quote": "The application deadline is 31 December 2026 ... for non-European applicants and 15 January 2027 ... for European applicants",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2026-12-31",
+          "next_deadline": "2026-12-31"
+        }
+      }
+    },
+    {
+      "id": "emmie",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.emmie.uliege.be/cms/c_7950389/en/emmie"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.emmie.uliege.be/cms/c_7950389/en/emmie",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "emmir",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.emmir.org/applications"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2026-12-20",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.emmir.org/applications",
+            "quote": "EMMIR Edition 14 (2027–2029) applications are currently open until 20 December 2026 for scholarship and non-fee paying study places",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2026-12-20",
+          "next_deadline": "2026-12-20"
+        }
+      }
+    },
+    {
+      "id": "eps",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://epsmaster.eu/admissions"
+      ],
+      "sections": [
+        "deadlines",
+        "competition"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-28",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://epsmaster.eu/admissions",
+            "quote": "applications received by midnight (CET) February 28, 2027, are automatically considered a scholarship application",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-28",
+          "next_deadline": "2027-02-28"
+        },
+        "competition": {
+          "scholarships": 6,
+          "places": null,
+          "applicants": null,
+          "note": "6 scholarships for 2025-2027 cohort",
+          "source_url": "https://epsmaster.eu/admissions",
+          "checked_on": "2026-11-27"
+        }
+      }
+    },
+    {
+      "id": "flourish",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://flourishproject.mt/applications/apply-online/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "PREVIOUS_CYCLE",
+            "date": "2025-12-15",
+            "kind": null,
+            "intake": "2026",
+            "source_url": "https://flourishproject.mt/applications/apply-online/",
+            "quote": "Scholarship applications for the 4th cohort ... closed on 15th December 2025; information on the next programme later in 2027",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "globed",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://globed.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://globed.eu/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "glocal",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://globallocal-erasmusmundus.eu/about-glocal/entry-requirements/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-14",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://globallocal-erasmusmundus.eu/about-glocal/entry-requirements/",
+            "quote": "Application Deadlines: Scholarship applications (all tracks): 14th January 2027, 1300 (UK time)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-14",
+          "next_deadline": "2027-01-14"
+        }
+      }
+    },
+    {
+      "id": "goals",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.master-goals.eu/participation-cost-scholarship/how-to-apply.html"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "PREVIOUS_CYCLE",
+            "date": "2026-05-15",
+            "kind": null,
+            "intake": "2026",
+            "source_url": "https://www.master-goals.eu/participation-cost-scholarship/how-to-apply.html",
+            "quote": "Key dates for self-funded applicants only (extra application round) ... deadline: 15 May 2026",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "humanresponse",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://humanresponse.eu/applications1/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-07",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://humanresponse.eu/applications1/",
+            "quote": "Scholarship Applications for the 2027/2029 edition OPEN. Scholarship round of Applications end 7 January 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-07",
+          "next_deadline": "2027-01-07"
+        }
+      }
+    },
+    {
+      "id": "ilspsd",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://master-international-law-erasmusmundus.eu/application-selection-timetable/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-04",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://master-international-law-erasmusmundus.eu/application-selection-timetable/",
+            "quote": "(2027–2029) with an EMJM Scholarship is open until 4 January 2027 (23:59 CET)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-04",
+          "next_deadline": "2027-01-04"
+        }
+      }
+    },
+    {
+      "id": "imarc",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://internationalmastercriminology.eu/admission/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-03-15",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://internationalmastercriminology.eu/admission/",
+            "quote": "The deadline for scholarship applications is 15 March (annual rule; year not stated)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-03-15",
+          "next_deadline": "2027-03-15"
+        }
+      }
+    },
+    {
+      "id": "imsiss",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.securityintelligence-erasmusmundus.eu/apply/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-07",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.securityintelligence-erasmusmundus.eu/apply/",
+            "quote": "Scholarship applications close on 7th January 2027, 1300 (UK time)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-07",
+          "next_deadline": "2027-01-07"
+        }
+      }
+    },
+    {
+      "id": "janus",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://master-janus-security-defense.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://master-janus-security-defense.eu/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "maisi",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.maisi-project.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-01",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.maisi-project.eu/",
+            "quote": "The deadline for application is: Erasmus Mundus Scholarships: February 1st (annual rule; year not stated)",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-01",
+          "next_deadline": "2027-02-01"
+        }
+      }
+    },
+    {
+      "id": "marihe",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.marihe.eu/how-to-apply/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2026-09-21",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.marihe.eu/how-to-apply/",
+            "quote": "The application period for intake 2027 is closed. Deadline was 21 September 2026 ... next intake with EM scholarships is September 2028",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2026-09-21",
+          "next_deadline": "2026-09-21"
+        }
+      }
+    },
+    {
+      "id": "m3ep",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://m3ep.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://m3ep.eu/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "lawgid",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://lawgid.ius.bg.ac.rs/2026/11/22/call-for-applications-for-the-lawgid-master-programme-academic-year-2027-2028/"
+      ],
+      "sections": [
+        "deadlines",
+        "competition"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-02-15",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://lawgid.ius.bg.ac.rs/2026/11/22/call-for-applications-for-the-lawgid-master-programme-academic-year-2027-2028/",
+            "quote": "Call for Applications ... Academic Year 2027/2028 ... Application deadline: 15 February 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-02-15",
+          "next_deadline": "2027-02-15"
+        },
+        "competition": {
+          "scholarships": 12,
+          "places": null,
+          "applicants": null,
+          "note": "12-13 EM scholarships",
+          "source_url": "https://lawgid.ius.bg.ac.rs/",
+          "checked_on": "2026-11-27"
+        }
+      }
+    },
+    {
+      "id": "mipdal",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://mipdal.eu/admission/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-15",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://mipdal.eu/admission/",
+            "quote": "The Application Deadline For all scholarship holders and \"early birds\" will be on 15th January 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-15",
+          "next_deadline": "2027-01-15"
+        }
+      }
+    },
+    {
+      "id": "misei",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://master-misei.com/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_PUBLISHED",
+            "date": null,
+            "kind": null,
+            "intake": "2027",
+            "source_url": "https://master-misei.com/",
+            "quote": "Application for 2027 open in October 2026 (closing date not shown)",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "mitra",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.master-mitra.eu/en/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-17",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.master-mitra.eu/en/",
+            "quote": "The recruitment campaign for the 2027-2029 cohort will take place from Friday, October 16, 2026, to Sunday, January 17, 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-17",
+          "next_deadline": "2027-01-17"
+        }
+      }
+    },
+    {
+      "id": "microscom",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://microscom.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://microscom.eu/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "cde",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.master-cde.eu"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "UNCONFIRMED",
+            "date": null,
+            "kind": null,
+            "intake": "2027",
+            "source_url": "https://www.master-cde.eu",
+            "quote": "Browser navigation failed; homepage banner (read by fetch) says \"Call open until Jan 22, 2027\", not clearly the scholarship deadline",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "emimep",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.erasmus-mundus.emimep.eu/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_PUBLISHED",
+            "date": null,
+            "kind": null,
+            "intake": "2027",
+            "source_url": "https://www.erasmus-mundus.emimep.eu/",
+            "quote": "Applications for the Erasmus Mundus scholarships will open in November 2026 (closing date not shown)",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "me3",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.imt-atlantique.fr/en/study/msc/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.imt-atlantique.fr/en/study/msc/",
+            "quote": "Catalogue link is a generic IMT Atlantique MSc page; no ME3+ deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "imrd",
+      "provenance": "hand_checked",
+      "sources": [
+        "http://www.imrd.ugent.be/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "http://www.imrd.ugent.be/",
+            "quote": "Homepage last updated 2019; no 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "docnomadsplus",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://docnomadsplus.eu"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "UNREACHABLE",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://docnomadsplus.eu",
+            "quote": "Site served a bot-check page (Access Denied) on 2026-11-27",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "select",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://mastersplus.innoenergy.com/news-and-events/masters-plus-intake-2027-applications-open/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": "2027",
+            "source_url": "https://mastersplus.innoenergy.com/news-and-events/masters-plus-intake-2027-applications-open/",
+            "quote": "Round 1 for Masters+ Intake 2027 opens today, 21 September (closing date not stated on the pages checked)",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "mbuild",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.up.pt/mbuild/web/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NO_SCHOLARSHIP",
+            "date": "2027-01-31",
+            "kind": "self_funded",
+            "intake": "2027",
+            "source_url": "https://www.up.pt/mbuild/web/",
+            "quote": "All applicants must apply as self-funded students. Call for applications Start date: 2 December 2026 ... End date: 31 January 2027 (23:59 CET)",
+            "checked_on": "2026-11-27"
+          },
+          "self_funded_deadline": "2027-01-31",
+          "next_deadline": "2027-01-31"
+        }
+      }
+    },
+    {
+      "id": "emecs",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://emecs.eit.uni-kl.de/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://emecs.eit.uni-kl.de/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "e-pico-plus",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://master-epico.ec-nantes.fr/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://master-epico.ec-nantes.fr/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "mundus-mapp",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.mundusmapp.org/admissions-calendar/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2026-12-01",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://www.mundusmapp.org/admissions-calendar/",
+            "quote": "December 1, 2026, 23:59 CET Application deadline for applicants who wish to be considered for financial aid",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2026-12-01",
+          "next_deadline": "2026-12-01"
+        }
+      }
+    },
+    {
+      "id": "pioneer",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://pioneer-master.eu/admission/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "ANNUAL_RULE",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://pioneer-master.eu/admission/",
+            "quote": "When submitting after the March 1 deadline ... (year not stated)",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "repic",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.unic.eu/en/repic"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.unic.eu/en/repic",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "sdsi",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.sdsi.ma/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.sdsi.ma/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "spot",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://spot-psychology.eu/apply"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "CONFIRMED",
+            "date": "2027-01-31",
+            "kind": "scholarship",
+            "intake": "2027",
+            "source_url": "https://spot-psychology.eu/apply",
+            "quote": "Scholarship Call ... Application period 6 October 2026 – 31 January 2027",
+            "checked_on": "2026-11-27"
+          },
+          "scholarship_deadline": "2027-01-31",
+          "next_deadline": "2027-01-31"
+        }
+      }
+    },
+    {
+      "id": "wintour",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.wintour-master.eu/en/apply/emjm-scholarships/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": "2027",
+            "source_url": "https://www.wintour-master.eu/en/apply/emjm-scholarships/",
+            "quote": "2027-2029 cohort will be the last intake for which Erasmus Mundus scholarships are available (deadline not stated)",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "wocc",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.master-wocc.eu/"
+      ],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_FOUND",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": "https://www.master-wocc.eu/",
+            "quote": "No 2027 deadline found",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "wop-p",
+      "provenance": "hand_checked",
+      "sources": [
+        "https://www.erasmuswop.org/"
+      ],
+      "sections": [
+        "deadlines"
+      ],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "PREVIOUS_CYCLE",
+            "date": null,
+            "kind": null,
+            "intake": "2026",
+            "source_url": "https://www.erasmuswop.org/",
+            "quote": "Site still shows How to apply (2026-2028 ed.); no 2027 call yet",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "chemexpo",
+      "provenance": "hand_checked",
+      "sources": [],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_APPLICABLE",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": null,
+            "quote": "Not a degree programme with a scholarship call",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "e-traineeship",
+      "provenance": "hand_checked",
+      "sources": [],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_APPLICABLE",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": null,
+            "quote": "Not a degree programme with a scholarship call",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    },
+    {
+      "id": "msca-dn",
+      "provenance": "hand_checked",
+      "sources": [],
+      "sections": [],
+      "patch": {
+        "deadlines": {
+          "check": {
+            "status": "NOT_APPLICABLE",
+            "date": null,
+            "kind": null,
+            "intake": null,
+            "source_url": null,
+            "quote": "Doctoral network; positions are advertised individually",
+            "checked_on": "2026-11-27"
+          }
+        }
+      }
+    }
+  ]
+}
